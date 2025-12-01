@@ -1,0 +1,21 @@
+# Core
+python-dotenv>=1.0.0
+
+# LLM APIs (uncomment as needed)
+openai>=1.0.0
+anthropic>=0.18.0
+
+# Data processing
+pandas>=2.0.0
+# numpy>=1.24.0
+
+# HTTP requests (for APIs, scraping)
+requests>=2.31.0
+# httpx>=0.24.0
+
+# Uncomment as needed for specific projects:
+# beautifulsoup4>=4.12.0  # Web scraping
+# pdfplumber>=0.9.0       # PDF extraction
+# tiktoken>=0.5.0         # Token counting
+# rich>=13.0.0            # Pretty terminal output
+# pytest>=7.4.0           # Testing
