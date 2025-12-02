@@ -1,0 +1,657 @@
+{
+  "file_path": "data\\sample_contracts\\saas_terms_of_service.txt",
+  "total_obligations": 55,
+  "verified_count": 39,
+  "partial_count": 16,
+  "unverified_count": 0,
+  "empty_count": 0,
+  "verification_rate": 1.0,
+  "has_hallucinations": false,
+  "results": [
+    {
+      "obligation_id": "OBL-001",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Subject to the terms of this Agreement and payment of applicable fees, Company grants Customer a limited, non-exclusive, non-transferable, non-sublicensable right to access and use the Services during the Subscription Term",
+      "matched_text": "Subject to the terms of this Agreement and payment of applicable fees, Company grants Customer a limited, non-exclusive, non-transferable, non-sublicensable right to access and use the Services during the Subscription Term",
+      "match_location": "Section 2.1, Page 1-2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-002",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall ensure all Authorized Users comply with this Agreement",
+      "matched_text": "Customer shall ensure all Authorized Users comply with this Agreement",
+      "match_location": "Section 2.2(b), Page 2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-003",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall maintain the confidentiality of all login credentials",
+      "matched_text": "Customer shall maintain the confidentiality of all login credentials",
+      "match_location": "Section 2.2(c), Page 2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-004",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall immediately notify Company of any unauthorized access",
+      "matched_text": "Customer shall immediately notify Company of any unauthorized access",
+      "match_location": "Section 2.2(d), Page 2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-005",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Customer shall not, and shall not permit any third party to: (a) License, sublicense, sell, rent, lease, transfer, assign, or distribute the Services",
+      "matched_text": "Customer shall not, and shall not permit any third party to:\n\n(a) License, sublicense, sell, rent, lease, transfer, assign, or distribute the Services;\n(b) Modify, copy, or create derivative works based on the Services;\n(c) Reverse engineer, disassemble, decompile, or attempt to derive the source code of the Services;\n(d) Access the Services to build a competitive product or service;\n(e) Use the Services to store or transmit malicious code, viruses, or harmful content;\n(f) Interfere with or disrupt the integrity or performance of the Services;\n(g) Attempt to gain unauthorized access to the Services or related systems;\n(h) Use the Services in violation of any applicable law or regulation;\n(i) Use automated tools to access the Services without Company's written consent;\n(j) Exceed any usage limits specified in Customer's subscription plan",
+      "match_location": "Section 2.3(a), Page 2",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-006",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (b) Modify, copy, or create derivative works based on the Services",
+      "matched_text": null,
+      "match_location": "Section 2.3(b), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-007",
+      "status": "partial",
+      "confidence": 0.755,
+      "source_text": "Customer shall not, and shall not permit any third party to: (c) Reverse engineer, disassemble, decompile, or attempt to derive the source code of the Services",
+      "matched_text": "works based on the Services;\n(c) Reverse engineer, disassemble, decompile, or attempt to derive the source code of the Services;\n(d)",
+      "match_location": "Section 2.3(c), Page 2",
+      "issues": [
+        "Partial match only (similarity: 75.52%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-008",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (d) Access the Services to build a competitive product or service",
+      "matched_text": null,
+      "match_location": "Section 2.3(d), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-009",
+      "status": "partial",
+      "confidence": 0.725,
+      "source_text": "Customer shall not, and shall not permit any third party to: (e) Use the Services to store or transmit malicious code, viruses, or harmful content",
+      "matched_text": "competitive product or service;\n(e) Use the Services to store or transmit malicious code, viruses, or harmful content;",
+      "match_location": "Section 2.3(e), Page 2",
+      "issues": [
+        "Partial match only (similarity: 72.52%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-010",
+      "status": "partial",
+      "confidence": 0.708,
+      "source_text": "Customer shall not, and shall not permit any third party to: (f) Interfere with or disrupt the integrity or performance of the Services",
+      "matched_text": "viruses, or harmful content;\n(f) Interfere with or disrupt the integrity or performance of the Services;\n(g) Attempt",
+      "match_location": "Section 2.3(f), Page 2",
+      "issues": [
+        "Partial match only (similarity: 70.78%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-011",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (g) Attempt to gain unauthorized access to the Services or related systems",
+      "matched_text": null,
+      "match_location": "Section 2.3(g), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-012",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (h) Use the Services in violation of any applicable law or regulation",
+      "matched_text": null,
+      "match_location": "Section 2.3(h), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-013",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (i) Use automated tools to access the Services without Company's written consent",
+      "matched_text": null,
+      "match_location": "Section 2.3(i), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-014",
+      "status": "partial",
+      "confidence": 0.63,
+      "source_text": "Customer shall not, and shall not permit any third party to: (j) Exceed any usage limits specified in Customer's subscription plan",
+      "matched_text": null,
+      "match_location": "Section 2.3(j), Page 2",
+      "issues": [
+        "Found 9/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-015",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Customer is solely responsible for: (a) The accuracy, quality, integrity, and legality of Customer Data",
+      "matched_text": "Customer is solely responsible for:\n\n(a) The accuracy, quality, integrity, and legality of Customer Data;\n(b) The means by which Customer acquires Customer Data;\n(c) Obtaining all necessary consents and permissions to collect and use Customer Data;\n(d) Backing up Customer Data (Company is not responsible for data loss);\n(e) Ensuring Customer Data does not violate any third-party rights",
+      "match_location": "Section 3.4(a), Pages 2-3",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-016",
+      "status": "partial",
+      "confidence": 0.711,
+      "source_text": "Customer is solely responsible for: (b) The means by which Customer acquires Customer Data",
+      "matched_text": "integrity, and legality of Customer Data;\n(b) The means by which Customer acquires Customer Data;",
+      "match_location": "Section 3.4(b), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 71.11%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-017",
+      "status": "partial",
+      "confidence": 0.843,
+      "source_text": "Customer is solely responsible for: (c) Obtaining all necessary consents and permissions to collect and use Customer Data",
+      "matched_text": "which Customer acquires Customer Data;\n(c) Obtaining all necessary consents and permissions to collect and use Customer Data;\n(d)",
+      "match_location": "Section 3.4(c), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 84.30%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-018",
+      "status": "partial",
+      "confidence": 0.76,
+      "source_text": "Customer is solely responsible for: (d) Backing up Customer Data (Company is not responsible for data loss)",
+      "matched_text": "Data;\n(d) Backing up Customer Data (Company is not responsible for data loss);\n(e) Ensuring",
+      "match_location": "Section 3.4(d), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 76.04%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-019",
+      "status": "partial",
+      "confidence": 0.843,
+      "source_text": "Customer is solely responsible for: (e) Ensuring Customer Data does not violate any third-party rights",
+      "matched_text": "(Company is not responsible for data loss);\n(e) Ensuring Customer Data does not violate any third-party rights.",
+      "match_location": "Section 3.4(e), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 84.31%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-020",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall pay Company the fees specified in the applicable order form or subscription plan (\"Fees\"). All Fees are quoted in U.S. dollars unless otherwise specified.",
+      "matched_text": "Customer shall pay Company the fees specified in the applicable order form or subscription plan (\"Fees\"). All Fees are quoted in U.S. dollars unless otherwise specified.",
+      "match_location": "Section 4.1, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-021",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Unless otherwise agreed: (a) Fees are due in advance on an annual basis",
+      "matched_text": "Unless otherwise agreed:\n\n(a) Fees are due in advance on an annual basis;\n(b) All payments are due within thirty (30) days of invoice date;\n(c) Fees are non-refundable under any circumstances;\n(d) Company may charge interest on late payments at 1.5% per month or the maximum rate permitted by law",
+      "match_location": "Section 4.2(a), Pages 2-3",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-022",
+      "status": "partial",
+      "confidence": 0.787,
+      "source_text": "Unless otherwise agreed: (b) All payments are due within thirty (30) days of invoice date",
+      "matched_text": "an annual basis;\n(b) All payments are due within thirty (30) days of invoice",
+      "match_location": "Section 4.2(b), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 78.75%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-023",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer is responsible for all taxes, levies, duties, and assessments arising from this Agreement, excluding taxes based on Company's net income",
+      "matched_text": "Customer is responsible for all taxes, levies, duties, and assessments arising from this Agreement, excluding taxes based on Company's net income",
+      "match_location": "Section 4.4, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-024",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Unless Customer provides written notice of non-renewal at least sixty (60) days prior to the end of the then-current term, the Subscription Term shall automatically renew for successive periods equal to the initial term",
+      "matched_text": "Unless Customer provides written notice of non-renewal at least sixty (60) days prior to the end of the then-current term, the Subscription Term shall automatically renew for successive periods equal to the initial term",
+      "match_location": "Section 5.2, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-025",
+      "status": "partial",
+      "confidence": 0.76,
+      "source_text": "Customer may terminate this Agreement upon written notice, provided that: (b) Customer shall pay all Fees due through the end of the then-current Subscription Term",
+      "matched_text": "by Customer. Customer may terminate this Agreement upon written notice, provided that:\n\n(a) No refund of prepaid Fees shall be provided;\n(b) Customer shall pay all Fees due through the end of the then-current",
+      "match_location": "Section 5.4(b), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 75.98%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-026",
+      "status": "partial",
+      "confidence": 0.807,
+      "source_text": "Upon termination: (b) Customer shall pay all outstanding Fees",
+      "matched_text": "immediately cease;\n(b) Customer shall pay all outstanding",
+      "match_location": "Section 5.5(b), Pages 2-3",
+      "issues": [
+        "Partial match only (similarity: 80.73%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-027",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company may increase Fees at any time upon thirty (30) days' prior notice",
+      "matched_text": "Company may increase Fees at any time upon thirty (30) days' prior notice",
+      "match_location": "Section 4.3, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-028",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall use commercially reasonable efforts to make the Services available 99.5% of the time during each calendar month, excluding scheduled maintenance and circumstances beyond Company's reasonable control",
+      "matched_text": "Company shall use commercially reasonable efforts to make the Services available 99.5% of the time during each calendar month, excluding scheduled maintenance and circumstances beyond Company's reasonable control",
+      "match_location": "Section 6.1, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-029",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall endeavor to provide at least 24 hours' advance notice of scheduled maintenance, but is not obligated to do so",
+      "matched_text": "Company shall endeavor to provide at least 24 hours' advance notice of scheduled maintenance, but is not obligated to do so",
+      "match_location": "Section 6.2, Pages 2-3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-030",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall endeavor to provide at least 24 hours' advance notice of scheduled maintenance, but is not obligated to do so.",
+      "matched_text": "Company shall endeavor to provide at least 24 hours' advance notice of scheduled maintenance, but is not obligated to do so.",
+      "match_location": "Section 6.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-031",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall provide email support during normal business hours (9:00 AM - 5:00 PM Pacific Time, Monday - Friday, excluding holidays). Response times are targets only and are not guaranteed.",
+      "matched_text": "Company shall provide email support during normal business hours (9:00 AM - 5:00 PM Pacific Time, Monday - Friday, excluding holidays). Response times are targets only and are not guaranteed.",
+      "match_location": "Section 6.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-032",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement",
+      "matched_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement",
+      "match_location": "Section 8.2(a)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-033",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement; (b) not disclose Confidential Information to any third party without prior written consent",
+      "matched_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement; (b) not disclose Confidential Information to any third party without prior written consent",
+      "match_location": "Section 8.2(b)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-034",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement; (b) not disclose Confidential Information to any third party without prior written consent; and (c) protect Confidential Information using the same degree of care as it uses to protect its own confidential information.",
+      "matched_text": "The receiving party shall: (a) use Confidential Information only for purposes of this Agreement; (b) not disclose Confidential Information to any third party without prior written consent; and (c) protect Confidential Information using the same degree of care as it uses to protect its own confidential information.",
+      "match_location": "Section 8.2(c)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-035",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall not remove, alter, or obscure any proprietary notices on the Services or Documentation.",
+      "matched_text": "Customer shall not remove, alter, or obscure any proprietary notices on the Services or Documentation.",
+      "match_location": "Section 7.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-036",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "If Customer provides any suggestions, ideas, enhancement requests, recommendations, or other feedback relating to the Services (\"Feedback\"), Customer hereby assigns to Company all right, title, and interest in and to such Feedback and agrees that Company may use Feedback for any purpose without any obligation to Customer.",
+      "matched_text": "If Customer provides any suggestions, ideas, enhancement requests, recommendations, or other feedback relating to the Services (\"Feedback\"), Customer hereby assigns to Company all right, title, and interest in and to such Feedback and agrees that Company may use Feedback for any purpose without any obligation to Customer.",
+      "match_location": "Section 7.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-037",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Customer shall indemnify, defend, and hold harmless Company and its affiliates, officers, directors, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to: (a) Customer's use of the Services; (b) Customer Data or any content provided by Customer; (c) Customer's breach of this Agreement; (d) Customer's violation of any applicable law; (e) Any claim by a third party relating to Customer's use of the Services.",
+      "matched_text": null,
+      "match_location": "Section 11.1, Page 5-6",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-038",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall: (a) promptly notify Customer of any claim",
+      "matched_text": "Company shall: (a) promptly notify Customer of any claim",
+      "match_location": "Section 11.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-039",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall: (a) promptly notify Customer of any claim; (b) give Customer sole control of the defense and settlement",
+      "matched_text": "Company shall: (a) promptly notify Customer of any claim; (b) give Customer sole control of the defense and settlement",
+      "match_location": "Section 11.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-040",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall: (a) promptly notify Customer of any claim; (b) give Customer sole control of the defense and settlement; and (c) provide reasonable cooperation.",
+      "matched_text": "Company shall: (a) promptly notify Customer of any claim; (b) give Customer sole control of the defense and settlement; and (c) provide reasonable cooperation.",
+      "match_location": "Section 11.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-041",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer shall not settle any claim that imposes any obligation on Company without Company's prior written consent.",
+      "matched_text": "Customer shall not settle any claim that imposes any obligation on Company without Company's prior written consent.",
+      "match_location": "Section 11.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-042",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "YOU AND COMPANY EACH AGREE THAT ANY DISPUTE RESOLUTION PROCEEDINGS WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A CLASS, CONSOLIDATED, OR REPRESENTATIVE ACTION. YOU HEREBY WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.",
+      "matched_text": "YOU AND COMPANY EACH AGREE THAT ANY DISPUTE RESOLUTION PROCEEDINGS WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A CLASS, CONSOLIDATED, OR REPRESENTATIVE ACTION. YOU HEREBY WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.",
+      "match_location": "Section 12.3, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-043",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AND COMPANY EACH WAIVE ANY RIGHT TO A JURY TRIAL IN CONNECTION WITH ANY DISPUTE ARISING OUT OF OR RELATING TO THIS AGREEMENT.",
+      "matched_text": "TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AND COMPANY EACH WAIVE ANY RIGHT TO A JURY TRIAL IN CONNECTION WITH ANY DISPUTE ARISING OUT OF OR RELATING TO THIS AGREEMENT.",
+      "match_location": "Section 12.4, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-044",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "ANY CAUSE OF ACTION OR CLAIM CUSTOMER MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.",
+      "matched_text": "ANY CAUSE OF ACTION OR CLAIM CUSTOMER MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.",
+      "match_location": "Section 12.5, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-045",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "ANY DISPUTE, CLAIM, OR CONTROVERSY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES SHALL BE RESOLVED EXCLUSIVELY THROUGH FINAL AND BINDING ARBITRATION. THE ARBITRATION SHALL BE ADMINISTERED BY THE AMERICAN ARBITRATION ASSOCIATION (\"AAA\") IN WILMINGTON, DELAWARE, IN ACCORDANCE WITH ITS COMMERCIAL ARBITRATION RULES.",
+      "matched_text": "ANY DISPUTE, CLAIM, OR CONTROVERSY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES SHALL BE RESOLVED EXCLUSIVELY THROUGH FINAL AND BINDING ARBITRATION. THE ARBITRATION SHALL BE ADMINISTERED BY THE AMERICAN ARBITRATION ASSOCIATION (\"AAA\") IN WILMINGTON, DELAWARE, IN ACCORDANCE WITH ITS COMMERCIAL ARBITRATION RULES.",
+      "match_location": "Section 12.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-046",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall process Customer Data in accordance with its Privacy Policy, which is incorporated herein by reference.",
+      "matched_text": "Company shall process Customer Data in accordance with its Privacy Policy, which is incorporated herein by reference.",
+      "match_location": "Section 13.1, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-047",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer acknowledges that it has read and agrees to the Privacy Policy.",
+      "matched_text": "Customer acknowledges that it has read and agrees to the Privacy Policy.",
+      "match_location": "Section 13.1, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-048",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer consents to the transfer of Customer Data outside of Customer's country of residence.",
+      "matched_text": "Customer consents to the transfer of Customer Data outside of Customer's country of residence.",
+      "match_location": "Section 13.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-049",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Company shall implement reasonable administrative, technical, and physical safeguards designed to protect Customer Data.",
+      "matched_text": "Company shall implement reasonable administrative, technical, and physical safeguards designed to protect Customer Data.",
+      "match_location": "Section 13.3, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-050",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "In the event of a security breach affecting Customer Data, Company shall notify Customer within a reasonable time after discovery.",
+      "matched_text": "In the event of a security breach affecting Customer Data, Company shall notify Customer within a reasonable time after discovery.",
+      "match_location": "Section 13.4, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-051",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer agrees that Company may use third-party subprocessors to process Customer Data.",
+      "matched_text": "Customer agrees that Company may use third-party subprocessors to process Customer Data.",
+      "match_location": "Section 13.5, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-052",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer is responsible for reviewing this Agreement periodically.",
+      "matched_text": "Customer is responsible for reviewing this Agreement periodically.",
+      "match_location": "Section 14.2, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-053",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer may not assign or transfer this Agreement without Company's prior written consent.",
+      "matched_text": "Customer may not assign or transfer this Agreement without Company's prior written consent.",
+      "match_location": "Section 14.3, Page 7",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-054",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Customer agrees to comply with all applicable export control laws and regulations.",
+      "matched_text": "Customer agrees to comply with all applicable export control laws and regulations.",
+      "match_location": "Section 14.9, Page 7",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-055",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "All notices to Company shall be sent to: legal@cloudplatformsystems.com or CloudPlatform Systems Inc., Legal Department, 1000 Enterprise Way, Wilmington, DE 19801.",
+      "matched_text": "All notices to Company shall be sent to: legal@cloudplatformsystems.com or CloudPlatform Systems Inc., Legal Department, 1000 Enterprise Way, Wilmington, DE 19801.",
+      "match_location": "Section 14.11, Page 7",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    }
+  ]
+}

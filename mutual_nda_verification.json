@@ -1,0 +1,290 @@
+{
+  "file_path": "data\\sample_contracts\\mutual_nda.txt",
+  "total_obligations": 24,
+  "verified_count": 24,
+  "partial_count": 0,
+  "unverified_count": 0,
+  "empty_count": 0,
+  "verification_rate": 1.0,
+  "has_hallucinations": false,
+  "results": [
+    {
+      "obligation_id": "OBL-001",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "The Receiving Party agrees: (a) To hold all Confidential Information in strict confidence;",
+      "matched_text": "The Receiving Party agrees:\n\n(a) To hold all Confidential Information in strict confidence;\n\n(b) Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing Party;\n\n(c) Not to use any Confidential Information for any purpose other than the Purpose;\n\n(d) To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein;\n\n(e) To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care",
+      "match_location": "Section 3.1(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-002",
+      "status": "verified",
+      "confidence": 0.852,
+      "source_text": "The Receiving Party agrees: ... (b) Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing Party;",
+      "matched_text": "confidence;\n\n(b) Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing",
+      "match_location": "Section 3.1(b)",
+      "issues": [
+        "Fuzzy match (similarity: 85.21%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-003",
+      "status": "verified",
+      "confidence": 0.86,
+      "source_text": "The Receiving Party agrees: ... (c) Not to use any Confidential Information for any purpose other than the Purpose;",
+      "matched_text": "Disclosing Party;\n\n(c) Not to use any Confidential Information for any purpose other than the Purpose;",
+      "match_location": "Section 3.1(c)",
+      "issues": [
+        "Fuzzy match (similarity: 85.99%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-004",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The burden of proving that any of the above exclusions applies shall rest with the Receiving Party, and such proof must be established by clear and convincing evidence.",
+      "matched_text": "The burden of proving that any of the above exclusions applies shall rest with the Receiving Party, and such proof must be established by clear and convincing evidence.",
+      "match_location": "Section 2.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-005",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "(c) Not to use any Confidential Information for any purpose other than the Purpose;",
+      "matched_text": "(c) Not to use any Confidential Information for any purpose other than the Purpose;",
+      "match_location": "Section 3.1(c)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-006",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "(d) To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein;",
+      "matched_text": "(d) To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein;",
+      "match_location": "Section 3.1(d)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-007",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "(e) To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care.",
+      "matched_text": "(e) To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care.",
+      "match_location": "Section 3.1(e)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-008",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "As required by applicable law, regulation, or court order, provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy.",
+      "matched_text": "As required by applicable law, regulation, or court order, provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy.",
+      "match_location": "Section 3.2(b)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-009",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "As required by applicable law, regulation, or court order, provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy.",
+      "matched_text": "As required by applicable law, regulation, or court order, provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy.",
+      "match_location": "Section 3.2(b)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-010",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Upon the Disclosing Party's written request, or upon termination or expiration of this Agreement, the Receiving Party shall promptly: (a) Return to the Disclosing Party all documents, materials, and other tangible items containing Confidential Information; or (b) Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party.",
+      "matched_text": null,
+      "match_location": "Section 5.1",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-011",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party.",
+      "matched_text": "Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party.",
+      "match_location": "Section 5.1(b)",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-012",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Either Party may terminate this Agreement at any time by providing thirty (30) days' prior written notice to the other Party.",
+      "matched_text": "Either Party may terminate this Agreement at any time by providing thirty (30) days' prior written notice to the other Party.",
+      "match_location": "Section 6.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-013",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years, or with respect to trade secrets, for as long as such information remains a trade secret under applicable law.",
+      "matched_text": "The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years, or with respect to trade secrets, for as long as such information remains a trade secret under applicable law.",
+      "match_location": "Section 6.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-014",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Each Party (the \"Indemnifying Party\") agrees to indemnify, defend, and hold harmless the other Party and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to: (a) Any breach of this Agreement by the Indemnifying Party; (b) Any unauthorized disclosure or use of Confidential Information by the Indemnifying Party or its representatives.",
+      "matched_text": null,
+      "match_location": "Section 10.1, Pages 3-5",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-015",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party with whom it has had contact in connection with the Purpose, without the prior written consent of the other Party.",
+      "matched_text": "During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party with whom it has had contact in connection with the Purpose, without the prior written consent of the other Party.",
+      "match_location": "Section 12.1, Pages 3-5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-016",
+      "status": "verified",
+      "confidence": 0.911,
+      "source_text": "Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party in connection with the Purpose. This non-circumvention obligation shall survive termination of this Agreement for a period of three (3) years.",
+      "matched_text": "13. NON-CIRCUMVENTION\n\n13.1 Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party in connection with the Purpose.\n\n13.2 This non-circumvention obligation shall survive termination of this Agreement for",
+      "match_location": "Section 13.1-13.2, Pages 3-5",
+      "issues": [
+        "Fuzzy match (similarity: 91.13%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-017",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Neither Party may assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement to an affiliate or in connection with a merger, acquisition, or sale of substantially all of its assets.",
+      "matched_text": "Neither Party may assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement to an affiliate or in connection with a merger, acquisition, or sale of substantially all of its assets.",
+      "match_location": "Section 14.1, Pages 3-5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-018",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Any dispute arising out of or relating to this Agreement shall be resolved as follows: (a) The Parties shall first attempt to resolve the dispute through good faith negotiations; (b) If negotiations fail within thirty (30) days, either Party may initiate binding arbitration",
+      "matched_text": "Any dispute arising out of or relating to this Agreement shall be resolved as follows:\n\n(a) The Parties shall first attempt to resolve the dispute through good faith negotiations;\n\n(b) If negotiations fail within thirty (30) days, either Party may initiate binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules;\n\n(c) The arbitration shall be conducted by a single arbitrator mutually agreed upon by the Parties;\n\n(d) The arbitrator's decision shall be final and binding, and judgment may be entered in any court of competent jurisdiction;\n\n(e) Each Party shall bear its own costs and attorneys' fees, unless the arbitrator determines that one Party's claims or defenses were frivolous or brought in bad faith",
+      "match_location": "Section 15.2(a)-(b), Pages 3-5",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-019",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "If negotiations fail within thirty (30) days, either Party may initiate binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules",
+      "matched_text": "If negotiations fail within thirty (30) days, either Party may initiate binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules",
+      "match_location": "Section 15.2(b), Pages 3-5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-020",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The arbitration shall be conducted by a single arbitrator mutually agreed upon by the Parties",
+      "matched_text": "The arbitration shall be conducted by a single arbitrator mutually agreed upon by the Parties",
+      "match_location": "Section 15.2(c), Pages 3-5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-021",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Each Party shall bear its own costs and attorneys' fees, unless the arbitrator determines that one Party's claims or defenses were frivolous or brought in bad faith.",
+      "matched_text": "Each Party shall bear its own costs and attorneys' fees, unless the arbitrator determines that one Party's claims or defenses were frivolous or brought in bad faith.",
+      "match_location": "Section 15.2(e), Pages 3-5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-022",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "All notices under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by confirmed email, or sent by overnight courier to the addresses set forth above, or to such other address as a Party may designate in writing.",
+      "matched_text": "All notices under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by confirmed email, or sent by overnight courier to the addresses set forth above, or to such other address as a Party may designate in writing.",
+      "match_location": "Section 16, Page 5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-023",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "This Agreement may not be amended or modified except by a written instrument signed by both Parties.",
+      "matched_text": "This Agreement may not be amended or modified except by a written instrument signed by both Parties.",
+      "match_location": "Section 17.2, Page 5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-024",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Each Party agrees to comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed hereunder.",
+      "matched_text": "Each Party agrees to comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed hereunder.",
+      "match_location": "Section 17.7, Page 5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    }
+  ]
+}

@@ -1,0 +1,508 @@
+{
+  "file_path": "data\\sample_contracts\\employment_agreement.txt",
+  "total_obligations": 42,
+  "verified_count": 34,
+  "partial_count": 8,
+  "unverified_count": 0,
+  "empty_count": 0,
+  "verification_rate": 1.0,
+  "has_hallucinations": false,
+  "results": [
+    {
+      "obligation_id": "OBL-001",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee shall perform all duties and responsibilities customarily associated with Employee's position, as well as such other duties as may be assigned by the Company from time to time.",
+      "matched_text": "Employee shall perform all duties and responsibilities customarily associated with Employee's position, as well as such other duties as may be assigned by the Company from time to time.",
+      "match_location": "Section 1.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-002",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees to devote Employee's full working time, attention, and best efforts to the performance of Employee's duties.",
+      "matched_text": "Employee agrees to devote Employee's full working time, attention, and best efforts to the performance of Employee's duties.",
+      "match_location": "Section 1.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-003",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee shall comply with all Company policies, procedures, rules, and regulations as may be established and modified from time to time in the Company's sole discretion.",
+      "matched_text": "Employee shall comply with all Company policies, procedures, rules, and regulations as may be established and modified from time to time in the Company's sole discretion.",
+      "match_location": "Section 1.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-004",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The Company reserves the right to require Employee to relocate to any other Company location, domestic or international, as business needs dictate, with or without additional compensation.",
+      "matched_text": "The Company reserves the right to require Employee to relocate to any other Company location, domestic or international, as business needs dictate, with or without additional compensation.",
+      "match_location": "Section 1.4",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-005",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee shall receive an annual base salary of One Hundred Seventy-Five Thousand Dollars ($175,000.00), payable in accordance with the Company's regular payroll practices, less all applicable withholdings and deductions.",
+      "matched_text": "Employee shall receive an annual base salary of One Hundred Seventy-Five Thousand Dollars ($175,000.00), payable in accordance with the Company's regular payroll practices, less all applicable withholdings and deductions.",
+      "match_location": "Section 3.1",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-006",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Bonus eligibility requires Employee to be actively employed on the date of payment. No partial or prorated bonuses will be paid if employment terminates for any reason prior to the payment date.",
+      "matched_text": "Bonus eligibility requires Employee to be actively employed on the date of payment. No partial or prorated bonuses will be paid if employment terminates for any reason prior to the payment date.",
+      "match_location": "Section 3.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-007",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "PTO requests must be submitted at least two (2) weeks in advance and are subject to approval by Employee's supervisor. The Company may deny PTO requests based on business needs.",
+      "matched_text": "PTO requests must be submitted at least two (2) weeks in advance and are subject to approval by Employee's supervisor. The Company may deny PTO requests based on business needs.",
+      "match_location": "Section 5.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-008",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The Company shall reimburse Employee for reasonable and necessary business expenses incurred in the performance of Employee's duties, subject to the Company's expense reimbursement policies.",
+      "matched_text": "The Company shall reimburse Employee for reasonable and necessary business expenses incurred in the performance of Employee's duties, subject to the Company's expense reimbursement policies.",
+      "match_location": "Section 6.1",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-009",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee must submit expense reports with supporting documentation within thirty (30) days of incurring the expense. Failure to submit timely expense reports may result in forfeiture of reimbursement.",
+      "matched_text": "Employee must submit expense reports with supporting documentation within thirty (30) days of incurring the expense. Failure to submit timely expense reports may result in forfeiture of reimbursement.",
+      "match_location": "Section 6.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-010",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees to hold all Confidential Information in strict confidence and not to disclose any Confidential Information to any third party without the Company's prior written consent. This obligation shall continue indefinitely and shall survive termination of employment.",
+      "matched_text": "Employee agrees to hold all Confidential Information in strict confidence and not to disclose any Confidential Information to any third party without the Company's prior written consent. This obligation shall continue indefinitely and shall survive termination of employment.",
+      "match_location": "Section 7.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-011",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees not to use any Confidential Information for any purpose other than the performance of Employee's duties for the Company, both during and after employment.",
+      "matched_text": "Employee agrees not to use any Confidential Information for any purpose other than the performance of Employee's duties for the Company, both during and after employment.",
+      "match_location": "Section 7.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-012",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Upon termination of employment or upon the Company's request, Employee shall immediately return to the Company all documents, materials, equipment, and other property containing or relating to Confidential Information.",
+      "matched_text": "Upon termination of employment or upon the Company's request, Employee shall immediately return to the Company all documents, materials, equipment, and other property containing or relating to Confidential Information.",
+      "match_location": "Section 7.4",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-013",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee hereby irrevocably assigns and transfers to the Company all right, title, and interest in and to all Work Product, including all intellectual property rights therein.",
+      "matched_text": "Employee hereby irrevocably assigns and transfers to the Company all right, title, and interest in and to all Work Product, including all intellectual property rights therein.",
+      "match_location": "Section 8.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-014",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees to execute any documents and take any actions necessary to effectuate such assignment.",
+      "matched_text": "Employee agrees to execute any documents and take any actions necessary to effectuate such assignment.",
+      "match_location": "Section 8.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-015",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "To the extent permitted by applicable law, Employee hereby waives any and all moral rights Employee may have in any Work Product, including rights of attribution, integrity, disclosure, and withdrawal.",
+      "matched_text": "To the extent permitted by applicable law, Employee hereby waives any and all moral rights Employee may have in any Work Product, including rights of attribution, integrity, disclosure, and withdrawal.",
+      "match_location": "Section 8.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-016",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "To the extent any Prior Invention is incorporated into any Company product or service, Employee hereby grants the Company a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, exclusive license to use, modify, reproduce, distribute, and create derivative works of such Prior Invention.",
+      "matched_text": "To the extent any Prior Invention is incorporated into any Company product or service, Employee hereby grants the Company a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, exclusive license to use, modify, reproduce, distribute, and create derivative works of such Prior Invention.",
+      "match_location": "Section 8.5",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-017",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: (a) Engage in, own, manage, operate, control, be employed by, participate in, or be connected with any business or enterprise that competes with the Company's business",
+      "matched_text": "NON-COMPETITION\n\n9.1 During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world:\n\n(a) Engage in, own, manage, operate, control, be employed by, participate in, or be connected with any business or enterprise that competes with the Company's business;\n\n(b) Provide services, whether as an employee, consultant, advisor, or in any other capacity, to any Competitor (as defined below);\n\n(c) Develop, design, produce, market, sell, or distribute any products or services that compete with the Company's products or services",
+      "match_location": "Section 9.1(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-018",
+      "status": "partial",
+      "confidence": 0.722,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: ... (b) Provide services, whether as an employee, consultant, advisor, or in any other capacity, to any Competitor",
+      "matched_text": "such Prior Invention.\n\n9. NON-COMPETITION\n\n9.1 During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world:\n\n(a)",
+      "match_location": "Section 9.1(b)",
+      "issues": [
+        "Partial match only (similarity: 72.19%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-019",
+      "status": "partial",
+      "confidence": 0.7,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: ... (c) Develop, design, produce, market, sell, or distribute any products or services that compete with the Company's products or services.",
+      "matched_text": null,
+      "match_location": "Section 9.1(c)",
+      "issues": [
+        "Found 10/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-020",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: (a) Solicit, recruit, hire, or attempt to solicit, recruit, or hire any employee, contractor, or consultant of the Company to leave the Company's employ or to provide services to any other person or entity",
+      "matched_text": "NON-SOLICITATION\n\n10.1 During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly:\n\n(a) Solicit, recruit, hire, or attempt to solicit, recruit, or hire any employee, contractor, or consultant of the Company to leave the Company's employ or to provide services to any other person or entity;\n\n(b) Encourage or induce any employee, contractor, or consultant of the Company to breach any agreement with the Company;\n\n(c) Solicit, contact, or do business with any customer, client, vendor, or business partner of the Company for the purpose of providing products or services competitive with the Company's products or services;\n\n(d) Interfere with or attempt to interfere with any business relationship between the Company and any customer, client, vendor, supplier, or business partner",
+      "match_location": "Section 10.1(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-021",
+      "status": "partial",
+      "confidence": 0.7,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: ... (b) Encourage or induce any employee, contractor, or consultant of the Company to breach any agreement with the Company",
+      "matched_text": null,
+      "match_location": "Section 10.1(b)",
+      "issues": [
+        "Found 10/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-022",
+      "status": "partial",
+      "confidence": 0.7,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: ... (c) Solicit, contact, or do business with any customer, client, vendor, or business partner of the Company for the purpose of providing products or services competitive with the Company's products or services",
+      "matched_text": null,
+      "match_location": "Section 10.1(c)",
+      "issues": [
+        "Found 10/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-023",
+      "status": "partial",
+      "confidence": 0.7,
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: ... (d) Interfere with or attempt to interfere with any business relationship between the Company and any customer, client, vendor, supplier, or business partner.",
+      "matched_text": null,
+      "match_location": "Section 10.1(d)",
+      "issues": [
+        "Found 10/10 key phrases"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-024",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees not to make any disparaging, defamatory, or derogatory statements about the Company, its products, services, officers, directors, employees, shareholders, or business practices to any third party, including but not limited to: customers, vendors, competitors, media, government agencies, or on social media platforms.",
+      "matched_text": "Employee agrees not to make any disparaging, defamatory, or derogatory statements about the Company, its products, services, officers, directors, employees, shareholders, or business practices to any third party, including but not limited to: customers, vendors, competitors, media, government agencies, or on social media platforms.",
+      "match_location": "Section 11.1",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-025",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee may terminate employment by providing at least four (4) weeks' prior written notice to the Company. The Company may, in its sole discretion, waive such notice period or place Employee on paid leave during the notice period.",
+      "matched_text": "Employee may terminate employment by providing at least four (4) weeks' prior written notice to the Company. The Company may, in its sole discretion, waive such notice period or place Employee on paid leave during the notice period.",
+      "match_location": "Section 12.2",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-026",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "If Employee's employment is terminated by the Company without Cause, and provided Employee executes a general release of claims in a form acceptable to the Company within the time period specified, Employee shall be entitled to: (a) Continued payment of base salary for six (6) months following termination; (b) COBRA premium subsidies for up to six (6) months.",
+      "matched_text": null,
+      "match_location": "Section 12.4",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-027",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Upon termination for any reason, Employee shall: (a) Immediately return all Company property, including but not limited to: laptop, phone, access cards, documents, files, and any materials containing Confidential Information",
+      "matched_text": "Upon termination for any reason, Employee shall:\n\n(a) Immediately return all Company property, including but not limited to: laptop, phone, access cards, documents, files, and any materials containing Confidential Information;\n(b) Resign from any positions held with the Company or its affiliates;\n(c) Cooperate with the Company in transitioning Employee's duties and responsibilities",
+      "match_location": "Section 12.5(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-028",
+      "status": "partial",
+      "confidence": 0.736,
+      "source_text": "Upon termination for any reason, Employee shall: (b) Resign from any positions held with the Company or its affiliates",
+      "matched_text": "Information;\n(b) Resign from any positions held with the Company or its affiliates;\n(c) Cooperate with",
+      "match_location": "Section 12.5(b)",
+      "issues": [
+        "Partial match only (similarity: 73.58%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-029",
+      "status": "partial",
+      "confidence": 0.774,
+      "source_text": "Upon termination for any reason, Employee shall: (c) Cooperate with the Company in transitioning Employee's duties and responsibilities",
+      "matched_text": "its affiliates;\n(c) Cooperate with the Company in transitioning Employee's duties and responsibilities.\n\n13.",
+      "match_location": "Section 12.5(c)",
+      "issues": [
+        "Partial match only (similarity: 77.37%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-030",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "Employee represents and warrants that: (a) Employee has the legal right to enter into this Agreement and is not bound by any agreement that would prevent Employee from performing Employee's duties",
+      "matched_text": "REPRESENTATIONS AND WARRANTIES\n\n13.1 Employee represents and warrants that:\n\n(a) Employee has the legal right to enter into this Agreement and is not bound by any agreement that would prevent Employee from performing Employee's duties;\n(b) Employee will not bring to the Company or use any confidential information belonging to any prior employer or third party;\n(c) All information provided by Employee in connection with Employee's application for employment was true and accurate;\n(d) Employee has no physical or mental condition that would impair Employee's ability to perform Employee's duties",
+      "match_location": "Section 13.1(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-031",
+      "status": "verified",
+      "confidence": 0.854,
+      "source_text": "Employee represents and warrants that: (b) Employee will not bring to the Company or use any confidential information belonging to any prior employer or third party",
+      "matched_text": "duties;\n(b) Employee will not bring to the Company or use any confidential information belonging to any prior employer or third party;",
+      "match_location": "Section 13.1(b)",
+      "issues": [
+        "Fuzzy match (similarity: 85.42%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-032",
+      "status": "verified",
+      "confidence": 0.866,
+      "source_text": "Employee represents and warrants that: (c) All information provided by Employee in connection with Employee's application for employment was true and accurate",
+      "matched_text": "party;\n(c) All information provided by Employee in connection with Employee's application for employment was true and accurate;\n(d)",
+      "match_location": "Section 13.1(c)",
+      "issues": [
+        "Fuzzy match (similarity: 86.62%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-033",
+      "status": "verified",
+      "confidence": 0.863,
+      "source_text": "Employee represents and warrants that: (d) Employee has no physical or mental condition that would impair Employee's ability to perform Employee's duties",
+      "matched_text": "for employment was true and accurate;\n(d) Employee has no physical or mental condition that would impair Employee's ability to perform Employee's duties.\n\n14.",
+      "match_location": "Section 13.1(d)",
+      "issues": [
+        "Fuzzy match (similarity: 86.27%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-034",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee agrees to pay all of the Company's costs and expenses, including reasonable attorneys' fees, incurred in enforcing any provision of this Agreement",
+      "matched_text": "Employee agrees to pay all of the Company's costs and expenses, including reasonable attorneys' fees, incurred in enforcing any provision of this Agreement",
+      "match_location": "Section 14.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-035",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Any dispute, claim, or controversy arising out of or relating to this Agreement or Employee's employment with the Company, including claims for wrongful termination, discrimination, harassment, retaliation, or violation of any federal, state, or local law, shall be resolved exclusively through final and binding arbitration",
+      "matched_text": "Any dispute, claim, or controversy arising out of or relating to this Agreement or Employee's employment with the Company, including claims for wrongful termination, discrimination, harassment, retaliation, or violation of any federal, state, or local law, shall be resolved exclusively through final and binding arbitration",
+      "match_location": "Section 15.1",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-036",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "EMPLOYEE AGREES TO BRING ANY CLAIMS AGAINST THE COMPANY IN EMPLOYEE'S INDIVIDUAL CAPACITY ONLY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, OR REPRESENTATIVE PROCEEDING",
+      "matched_text": "EMPLOYEE AGREES TO BRING ANY CLAIMS AGAINST THE COMPANY IN EMPLOYEE'S INDIVIDUAL CAPACITY ONLY AND NOT AS A PLAINTIFF OR CLASS MEMBER IN ANY PURPORTED CLASS, COLLECTIVE, OR REPRESENTATIVE PROCEEDING",
+      "match_location": "Section 15.3",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-037",
+      "status": "verified",
+      "confidence": 0.95,
+      "source_text": "If Employee's employment is terminated by the Company without Cause, and provided Employee executes a general release of claims in a form acceptable to the Company within the time period specified, Employee shall be entitled to: (a) Continued payment of base salary for six (6) months following termination",
+      "matched_text": "If Employee's employment is terminated by the Company without Cause, and provided Employee executes a general release of claims in a form acceptable to the Company within the time period specified, Employee shall be entitled to:\n\n(a) Continued payment of base salary for six (6) months following termination;\n(b) COBRA premium subsidies for up to six (6) months",
+      "match_location": "Section 12.4(a)",
+      "issues": [
+        "Matched after normalization"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-038",
+      "status": "partial",
+      "confidence": 0.833,
+      "source_text": "If Employee's employment is terminated by the Company without Cause, and provided Employee executes a general release of claims in a form acceptable to the Company within the time period specified, Employee shall be entitled to: (b) COBRA premium subsidies for up to six (6) months",
+      "matched_text": "Cause. If Employee's employment is terminated by the Company without Cause, and provided Employee executes a general release of claims in a form acceptable to the Company within the time period specified, Employee shall be entitled to:\n\n(a) Continued payment of base salary for six (6)",
+      "match_location": "Section 12.4(b)",
+      "issues": [
+        "Partial match only (similarity: 83.27%)"
+      ],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-039",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "This Agreement may not be amended or modified except by a written instrument signed by both parties.",
+      "matched_text": "This Agreement may not be amended or modified except by a written instrument signed by both parties.",
+      "match_location": "Section 16.3, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-040",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "Employee may not assign this Agreement.",
+      "matched_text": "Employee may not assign this Agreement.",
+      "match_location": "Section 16.6, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-041",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "All notices shall be in writing and delivered to the addresses set forth above or to such other address as a party may designate in writing.",
+      "matched_text": "All notices shall be in writing and delivered to the addresses set forth above or to such other address as a party may designate in writing.",
+      "match_location": "Section 16.7, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    },
+    {
+      "obligation_id": "OBL-042",
+      "status": "verified",
+      "confidence": 1.0,
+      "source_text": "The provisions of Sections 7, 8, 9, 10, 11, 14, and 15 shall survive termination of this Agreement and Employee's employment.",
+      "matched_text": "The provisions of Sections 7, 8, 9, 10, 11, 14, and 15 shall survive termination of this Agreement and Employee's employment.",
+      "match_location": "Section 16.8, Page 6",
+      "issues": [],
+      "is_verified": true,
+      "is_hallucination": false
+    }
+  ]
+}
