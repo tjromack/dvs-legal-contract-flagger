@@ -385,10 +385,10 @@ dvs-legal-contract-flagger/
 
 ## Author
 
-**[Your Name]**
-- GitHub: [@username](https://github.com/username)
-- LinkedIn: [Profile](https://linkedin.com/in/username)
-- X: [@handle](https://x.com/handle)
+**[Trevor J. Romack]**
+- GitHub: [@tjromack](https://github.com/tjromack)
+- LinkedIn: [Profile](https://linkedin.com/in/tjromack)
+- X: [@tjromack](https://x.com/tjromack)
 
 ---
 
