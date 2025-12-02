@@ -1,0 +1,201 @@
+MUTUAL NON-DISCLOSURE AGREEMENT
+
+This Mutual Non-Disclosure Agreement ("Agreement") is entered into as of December 1, 2024 (the "Effective Date"), by and between:
+
+PARTY A: TechVentures Innovation Inc., a Delaware corporation, with its principal place of business at 500 Innovation Way, San Francisco, CA 94105 ("TechVentures")
+
+PARTY B: DataFlow Solutions LLC, a California limited liability company, with its principal place of business at 1200 Market Street, Suite 400, San Francisco, CA 94103 ("DataFlow")
+
+(each a "Party" and collectively the "Parties")
+
+RECITALS
+
+WHEREAS, the Parties wish to explore a potential business relationship relating to the development and integration of artificial intelligence solutions for enterprise data management (the "Purpose"); and
+
+WHEREAS, in connection with the Purpose, each Party may disclose to the other certain confidential and proprietary information;
+
+NOW, THEREFORE, in consideration of the mutual covenants and agreements herein contained, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the Parties agree as follows:
+
+1. DEFINITION OF CONFIDENTIAL INFORMATION
+
+1.1 "Confidential Information" means any and all information or data, whether oral, written, electronic, visual, or in any other form, that is disclosed by one Party (the "Disclosing Party") to the other Party (the "Receiving Party") in connection with the Purpose, including but not limited to:
+
+(a) Technical information: software code, algorithms, APIs, system architectures, designs, specifications, databases, trade secrets, inventions, processes, techniques, know-how, and research and development activities;
+
+(b) Business information: business plans, strategies, financial information, projections, pricing, customer lists, supplier information, marketing plans, and sales data;
+
+(c) Product information: product roadmaps, features, release schedules, and product specifications;
+
+(d) Personnel information: employee information, organizational structures, compensation data, and personnel records;
+
+(e) Any information designated as "Confidential," "Proprietary," or with similar markings;
+
+(f) Any information that, given the nature of the information or the circumstances of disclosure, a reasonable person would understand to be confidential.
+
+1.2 Confidential Information shall also include all analyses, compilations, studies, summaries, extracts, or other documents or materials prepared by the Receiving Party that contain, reflect, or are derived from Confidential Information.
+
+2. EXCLUSIONS FROM CONFIDENTIAL INFORMATION
+
+2.1 Confidential Information shall not include information that:
+
+(a) Was publicly available at the time of disclosure or subsequently becomes publicly available through no fault of the Receiving Party;
+
+(b) Was known to the Receiving Party prior to disclosure, as evidenced by written records predating the disclosure;
+
+(c) Is independently developed by the Receiving Party without use of or reference to the Confidential Information, as evidenced by written records;
+
+(d) Is rightfully obtained by the Receiving Party from a third party without restriction on disclosure and without breach of any obligation of confidentiality.
+
+2.2 The burden of proving that any of the above exclusions applies shall rest with the Receiving Party, and such proof must be established by clear and convincing evidence.
+
+3. OBLIGATIONS OF RECEIVING PARTY
+
+3.1 Non-Disclosure. The Receiving Party agrees:
+
+(a) To hold all Confidential Information in strict confidence;
+
+(b) Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing Party;
+
+(c) Not to use any Confidential Information for any purpose other than the Purpose;
+
+(d) To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein;
+
+(e) To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care.
+
+3.2 Permitted Disclosures. Notwithstanding Section 3.1, the Receiving Party may disclose Confidential Information:
+
+(a) To its legal, financial, and accounting advisors who need to know such information, provided such advisors are bound by professional duties of confidentiality;
+
+(b) As required by applicable law, regulation, or court order, provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy.
+
+4. OWNERSHIP AND NO LICENSE
+
+4.1 All Confidential Information shall remain the exclusive property of the Disclosing Party. This Agreement does not grant the Receiving Party any license, right, or interest in or to any Confidential Information, intellectual property, patents, copyrights, trademarks, or trade secrets of the Disclosing Party.
+
+4.2 All intellectual property rights in any work product, inventions, discoveries, or improvements conceived or developed by either Party using the other Party's Confidential Information shall be owned exclusively by the Disclosing Party whose Confidential Information was used.
+
+5. RETURN OR DESTRUCTION OF CONFIDENTIAL INFORMATION
+
+5.1 Upon the Disclosing Party's written request, or upon termination or expiration of this Agreement, the Receiving Party shall promptly:
+
+(a) Return to the Disclosing Party all documents, materials, and other tangible items containing Confidential Information; or
+
+(b) Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party.
+
+5.2 Notwithstanding the foregoing, the Receiving Party may retain one (1) archival copy of the Confidential Information solely for legal compliance purposes, provided such copy remains subject to the confidentiality obligations of this Agreement.
+
+6. TERM AND TERMINATION
+
+6.1 Term. This Agreement shall commence on the Effective Date and shall continue for a period of three (3) years, unless earlier terminated as provided herein.
+
+6.2 Termination. Either Party may terminate this Agreement at any time by providing thirty (30) days' prior written notice to the other Party.
+
+6.3 Survival. The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years, or with respect to trade secrets, for as long as such information remains a trade secret under applicable law.
+
+7. NO OBLIGATION TO PROCEED
+
+7.1 Nothing in this Agreement shall be construed as obligating either Party to enter into any further agreement, proceed with any transaction, or continue discussions relating to the Purpose.
+
+7.2 Neither Party shall have any liability to the other Party for any decision not to proceed with any transaction or business relationship.
+
+8. REPRESENTATIONS AND WARRANTIES
+
+8.1 Each Party represents and warrants that:
+
+(a) It has the authority to enter into this Agreement and to disclose the Confidential Information it provides;
+
+(b) The disclosure of Confidential Information does not violate any agreement with any third party.
+
+8.2 EXCEPT AS EXPRESSLY SET FORTH HEREIN, ALL CONFIDENTIAL INFORMATION IS PROVIDED "AS IS" WITHOUT ANY WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, OR NON-INFRINGEMENT.
+
+9. REMEDIES
+
+9.1 Injunctive Relief. The Parties acknowledge that any breach or threatened breach of this Agreement may cause irreparable harm for which monetary damages would be an inadequate remedy. Accordingly, each Party shall be entitled to seek injunctive relief, specific performance, or other equitable remedies without the necessity of proving actual damages or posting bond.
+
+9.2 Cumulative Remedies. The rights and remedies provided herein are cumulative and are in addition to any other rights and remedies available at law or in equity.
+
+10. INDEMNIFICATION
+
+10.1 Each Party (the "Indemnifying Party") agrees to indemnify, defend, and hold harmless the other Party and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to:
+
+(a) Any breach of this Agreement by the Indemnifying Party;
+
+(b) Any unauthorized disclosure or use of Confidential Information by the Indemnifying Party or its representatives.
+
+11. LIMITATION OF LIABILITY
+
+11.1 EXCEPT FOR BREACHES OF CONFIDENTIALITY OBLIGATIONS OR INDEMNIFICATION OBLIGATIONS, IN NO EVENT SHALL EITHER PARTY BE LIABLE TO THE OTHER FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, INCLUDING LOST PROFITS, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+11.2 Notwithstanding the foregoing, nothing in this Agreement shall limit liability for fraud, willful misconduct, or gross negligence.
+
+12. NON-SOLICITATION
+
+12.1 During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party with whom it has had contact in connection with the Purpose, without the prior written consent of the other Party.
+
+12.2 This restriction shall not apply to general solicitations of employment not specifically directed at the other Party's employees.
+
+13. NON-CIRCUMVENTION
+
+13.1 Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party in connection with the Purpose.
+
+13.2 This non-circumvention obligation shall survive termination of this Agreement for a period of three (3) years.
+
+14. ASSIGNMENT
+
+14.1 Neither Party may assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement to an affiliate or in connection with a merger, acquisition, or sale of substantially all of its assets.
+
+14.2 Any attempted assignment in violation of this Section shall be null and void.
+
+15. GOVERNING LAW AND DISPUTE RESOLUTION
+
+15.1 Governing Law. This Agreement shall be governed by and construed in accordance with the laws of the State of California, without regard to its conflicts of law principles.
+
+15.2 Dispute Resolution. Any dispute arising out of or relating to this Agreement shall be resolved as follows:
+
+(a) The Parties shall first attempt to resolve the dispute through good faith negotiations;
+
+(b) If negotiations fail within thirty (30) days, either Party may initiate binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules;
+
+(c) The arbitration shall be conducted by a single arbitrator mutually agreed upon by the Parties;
+
+(d) The arbitrator's decision shall be final and binding, and judgment may be entered in any court of competent jurisdiction;
+
+(e) Each Party shall bear its own costs and attorneys' fees, unless the arbitrator determines that one Party's claims or defenses were frivolous or brought in bad faith.
+
+15.3 Waiver of Jury Trial. EACH PARTY HEREBY WAIVES ANY RIGHT TO A JURY TRIAL IN ANY PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT.
+
+16. NOTICES
+
+All notices under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by confirmed email, or sent by overnight courier to the addresses set forth above, or to such other address as a Party may designate in writing.
+
+17. MISCELLANEOUS
+
+17.1 Entire Agreement. This Agreement constitutes the entire agreement between the Parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, representations, and understandings.
+
+17.2 Amendments. This Agreement may not be amended or modified except by a written instrument signed by both Parties.
+
+17.3 Severability. If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions shall continue in full force and effect.
+
+17.4 Waiver. The failure of either Party to enforce any provision of this Agreement shall not constitute a waiver of such provision or the right to enforce it.
+
+17.5 Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original and all of which together shall constitute one and the same instrument.
+
+17.6 Relationship of Parties. Nothing in this Agreement shall create any partnership, joint venture, agency, or employment relationship between the Parties.
+
+17.7 Export Compliance. Each Party agrees to comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed hereunder.
+
+IN WITNESS WHEREOF, the Parties have executed this Agreement as of the date first written above.
+
+TECHVENTURES INNOVATION INC.
+
+By: _________________________________
+Name: Jennifer Martinez
+Title: Chief Executive Officer
+Date: December 1, 2024
+
+DATAFLOW SOLUTIONS LLC
+
+By: _________________________________
+Name: Michael Chen
+Title: Managing Director
+Date: December 1, 2024

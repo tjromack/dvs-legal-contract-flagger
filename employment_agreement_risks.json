@@ -1,0 +1,266 @@
+{
+  "file_path": "data\\sample_contracts\\employment_agreement.txt",
+  "risks": [
+    {
+      "obligation_id": "OBL-001",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Undefined frequency",
+      "description": "Undefined frequency detected. The obligation uses vague language that could be interpreted differently by each party: Perform all duties and responsibilities customarily associated with position and other assigned duties",
+      "source_text": "Employee shall perform all duties and responsibilities customarily associated with Employee's position, as well as such other duties as may be assigned by the Company from time to time.",
+      "source_location": "Section 1.2",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-002",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Best efforts standard",
+      "description": "Best efforts standard detected. The obligation uses vague language that could be interpreted differently by each party: Devote full working time, attention, and best efforts to performance of duties",
+      "source_text": "Employee agrees to devote Employee's full working time, attention, and best efforts to the performance of Employee's duties.",
+      "source_location": "Section 1.2",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-003",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Undefined frequency",
+      "description": "Undefined frequency detected. The obligation uses vague language that could be interpreted differently by each party: Comply with all Company policies, procedures, rules, and regulations as established and modified",
+      "source_text": "Employee shall comply with all Company policies, procedures, rules, and regulations as may be established and modified from time to time in the Company's sole discretion.",
+      "source_location": "Section 1.3",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-003",
+      "category": "consent_risk",
+      "severity": "medium",
+      "title": "Sole discretion",
+      "description": "Sole discretion detected. This requires obtaining approval which could cause delays or be denied: Comply with all Company policies, procedures, rules, and regulations as established and modified",
+      "source_text": "Employee shall comply with all Company policies, procedures, rules, and regulations as may be established and modified from time to time in the Company's sole discretion.",
+      "source_location": "Section 1.3",
+      "action_required": "Understand what requires approval and ensure timelines are defined.",
+      "negotiation_suggestion": "Add response deadlines and objective criteria for approval."
+    },
+    {
+      "obligation_id": "OBL-010",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Undefined timeline",
+      "description": "Undefined timeline detected. The obligation uses vague language that could be interpreted differently by each party: Submit expense reports with supporting documentation within 30 days",
+      "source_text": "Employee must submit expense reports with supporting documentation within thirty (30) days of incurring the expense. Failure to submit timely expense reports may result in forfeiture of reimbursement.",
+      "source_location": "Section 6.2, Page 3",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-011",
+      "category": "time_bomb",
+      "severity": "medium",
+      "title": "Automatic extension",
+      "description": "Automatic extension detected. This creates a deadline-sensitive obligation that could trigger automatically. Review carefully: Hold all Confidential Information in strict confidence and not disclose to third parties without written consent",
+      "source_text": "Employee agrees to hold all Confidential Information in strict confidence and not to disclose any Confidential Information to any third party without the Company's prior written consent. This obligation shall continue indefinitely and shall survive termination of employment.",
+      "source_location": "Section 7.2, Page 3",
+      "action_required": "Set calendar reminders for notice deadlines. Review renewal terms.",
+      "negotiation_suggestion": "Request longer notice periods (60-90 days) and opt-out renewal."
+    },
+    {
+      "obligation_id": "OBL-011",
+      "category": "consent_risk",
+      "severity": "medium",
+      "title": "Prior approval required",
+      "description": "Prior approval required detected. This requires obtaining approval which could cause delays or be denied: Hold all Confidential Information in strict confidence and not disclose to third parties without written consent",
+      "source_text": "Employee agrees to hold all Confidential Information in strict confidence and not to disclose any Confidential Information to any third party without the Company's prior written consent. This obligation shall continue indefinitely and shall survive termination of employment.",
+      "source_location": "Section 7.2, Page 3",
+      "action_required": "Understand what requires approval and ensure timelines are defined.",
+      "negotiation_suggestion": "Add response deadlines and objective criteria for approval."
+    },
+    {
+      "obligation_id": "OBL-013",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Undefined materiality",
+      "description": "Undefined materiality detected. The obligation uses vague language that could be interpreted differently by each party: Return all documents, materials, equipment, and property containing Confidential Information",
+      "source_text": "Upon termination of employment or upon the Company's request, Employee shall immediately return to the Company all documents, materials, equipment, and other property containing or relating to Confidential Information.",
+      "source_location": "Section 7.4, Page 3",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-014",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Broad IP assignment",
+      "description": "Broad IP assignment detected. This restricts your ability to work with competitors or use certain skills/knowledge: Assign all Work Product to Company",
+      "source_text": "Employee hereby irrevocably assigns and transfers to the Company all right, title, and interest in and to all Work Product, including all intellectual property rights therein.",
+      "source_location": "Section 8.2, Page 3",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-016",
+      "category": "asymmetric_terms",
+      "severity": "medium",
+      "title": "Waiver of rights",
+      "description": "Waiver of rights detected. This creates an imbalanced obligation where one party has more rights than the other: Waive moral rights in Work Product including rights of attribution, integrity, disclosure, and withdrawal",
+      "source_text": "To the extent permitted by applicable law, Employee hereby waives any and all moral rights Employee may have in any Work Product, including rights of attribution, integrity, disclosure, and withdrawal.",
+      "source_location": "Section 8.3, Page 3",
+      "action_required": "Identify imbalanced terms and request reciprocal rights.",
+      "negotiation_suggestion": "Request mutual obligations or balanced termination rights."
+    },
+    {
+      "obligation_id": "OBL-018",
+      "category": "time_bomb",
+      "severity": "medium",
+      "title": "Indefinite term",
+      "description": "Indefinite term detected. This creates a deadline-sensitive obligation that could trigger automatically. Review carefully: Grant perpetual, irrevocable, worldwide, royalty-free, exclusive license for Prior Inventions incorporated into Company products",
+      "source_text": "To the extent any Prior Invention is incorporated into any Company product or service, Employee hereby grants the Company a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, exclusive license to use, modify, reproduce, distribute, and create derivative works of such Prior Invention.",
+      "source_location": "Section 8.5, Page 3",
+      "action_required": "Set calendar reminders for notice deadlines. Review renewal terms.",
+      "negotiation_suggestion": "Request longer notice periods (60-90 days) and opt-out renewal."
+    },
+    {
+      "obligation_id": "OBL-018",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Exclusivity requirement",
+      "description": "Exclusivity requirement detected. This restricts your ability to work with competitors or use certain skills/knowledge: Grant perpetual, irrevocable, worldwide, royalty-free, exclusive license for Prior Inventions incorporated into Company products",
+      "source_text": "To the extent any Prior Invention is incorporated into any Company product or service, Employee hereby grants the Company a perpetual, irrevocable, worldwide, royalty-free, fully paid-up, exclusive license to use, modify, reproduce, distribute, and create derivative works of such Prior Invention.",
+      "source_location": "Section 8.5, Page 3",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-019",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Non-compete clause",
+      "description": "Non-compete clause detected. This restricts your ability to work with competitors or use certain skills/knowledge: Non-compete: Cannot engage in, own, manage, operate, control, be employed by, participate in, or be connected with competing business",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: (a) Engage in, own, manage, operate, control, be employed by, participate in, or be connected with any business or enterprise that competes with the Company's business",
+      "source_location": "Section 9.1(a), Page 3",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-020",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot provide services to any Competitor in any capacity",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: (b) Provide services, whether as an employee, consultant, advisor, or in any other capacity, to any Competitor",
+      "source_location": "Section 9.1(b), Page 3",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-021",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot develop, design, produce, market, sell, or distribute competing products or services",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly, anywhere in the world: (c) Develop, design, produce, market, sell, or distribute any products or services that compete with the Company's products or services.",
+      "source_location": "Section 9.1(c), Page 3",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-022",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot solicit, recruit, hire or attempt to solicit Company employees, contractors, or consultants",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: (a) Solicit, recruit, hire, or attempt to solicit, recruit, or hire any employee, contractor, or consultant of the Company to leave the Company's employ or to provide services to any other person or entity",
+      "source_location": "Section 10.1(a), Page 4",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-023",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot encourage or induce Company personnel to breach agreements with Company",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: (b) Encourage or induce any employee, contractor, or consultant of the Company to breach any agreement with the Company",
+      "source_location": "Section 10.1(b), Page 4",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-024",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot solicit, contact, or do business with Company customers, clients, vendors, or business partners for competitive purposes",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: (c) Solicit, contact, or do business with any customer, client, vendor, or business partner of the Company for the purpose of providing products or services competitive with the Company's products or services",
+      "source_location": "Section 10.1(c), Page 4",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-025",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Extended restriction period",
+      "description": "Extended restriction period detected. This restricts your ability to work with competitors or use certain skills/knowledge: Cannot interfere with Company business relationships",
+      "source_text": "During the term of Employee's employment and for a period of twenty-four (24) months following the termination of employment for any reason, Employee shall not, directly or indirectly: (d) Interfere with or attempt to interfere with any business relationship between the Company and any customer, client, vendor, supplier, or business partner.",
+      "source_location": "Section 10.1(d), Page 4",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-026",
+      "category": "time_bomb",
+      "severity": "medium",
+      "title": "Automatic extension",
+      "description": "Automatic extension detected. This creates a deadline-sensitive obligation that could trigger automatically. Review carefully: Cannot make disparaging, defamatory, or derogatory statements about Company or related parties",
+      "source_text": "Employee agrees not to make any disparaging, defamatory, or derogatory statements about the Company, its products, services, officers, directors, employees, shareholders, or business practices to any third party, including but not limited to: customers, vendors, competitors, media, government agencies, or on social media platforms. This obligation shall survive termination of employment and shall continue indefinitely.",
+      "source_location": "Section 11.1-11.2, Page 4",
+      "action_required": "Set calendar reminders for notice deadlines. Review renewal terms.",
+      "negotiation_suggestion": "Request longer notice periods (60-90 days) and opt-out renewal."
+    },
+    {
+      "obligation_id": "OBL-029",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Undefined materiality",
+      "description": "Undefined materiality detected. The obligation uses vague language that could be interpreted differently by each party: Immediately return all Company property upon termination",
+      "source_text": "Upon termination for any reason, Employee shall: (a) Immediately return all Company property, including but not limited to: laptop, phone, access cards, documents, files, and any materials containing Confidential Information;",
+      "source_location": "Section 12.5(a)",
+      "action_required": "Clarify vague terms before signing if possible.",
+      "negotiation_suggestion": "Request specific definitions, timelines, or objective standards."
+    },
+    {
+      "obligation_id": "OBL-034",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Exclusivity requirement",
+      "description": "Exclusivity requirement detected. This restricts your ability to work with competitors or use certain skills/knowledge: Resolve all disputes through mandatory arbitration",
+      "source_text": "Any dispute, claim, or controversy arising out of or relating to this Agreement or Employee's employment with the Company, including claims for wrongful termination, discrimination, harassment, retaliation, or violation of any federal, state, or local law, shall be resolved exclusively through final and binding arbitration.",
+      "source_location": "Section 15.1",
+      "action_required": "Carefully review scope and duration of restrictions.",
+      "negotiation_suggestion": "Narrow geographic scope, shorten duration, clarify permitted activities."
+    },
+    {
+      "obligation_id": "OBL-034",
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Mandatory arbitration",
+      "description": "Mandatory arbitration detected. This affects how disputes are resolved and may limit your legal options: Resolve all disputes through mandatory arbitration",
+      "source_text": "Any dispute, claim, or controversy arising out of or relating to this Agreement or Employee's employment with the Company, including claims for wrongful termination, discrimination, harassment, retaliation, or violation of any federal, state, or local law, shall be resolved exclusively through final and binding arbitration.",
+      "source_location": "Section 15.1",
+      "action_required": "Understand dispute resolution process and venue requirements.",
+      "negotiation_suggestion": "Request mutual venue or mediation before arbitration."
+    }
+  ],
+  "summary": {
+    "high_risk_count": 10,
+    "medium_risk_count": 7,
+    "low_risk_count": 6,
+    "most_concerning": "Broad IP assignment (competitive_restriction)",
+    "overall_risk_level": "high"
+  },
+  "obligations_analyzed": 41
+}

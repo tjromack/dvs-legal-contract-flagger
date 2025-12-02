@@ -1,0 +1,342 @@
+{
+  "file_path": "data\\sample_contracts\\mutual_nda.txt",
+  "parties": [
+    {
+      "name": "TechVentures Innovation Inc.",
+      "role": "Party A",
+      "is_reader": false
+    },
+    {
+      "name": "DataFlow Solutions LLC",
+      "role": "Party B",
+      "is_reader": false
+    }
+  ],
+  "effective_date": "2024-12-01",
+  "term": "Not specified in this chunk",
+  "termination_notice_period": "Not specified in this chunk",
+  "auto_renewal": {
+    "exists": false,
+    "period": null,
+    "notice_to_cancel": null
+  },
+  "obligations": [
+    {
+      "id": "OBL-001",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Must hold all Confidential Information in strict confidence",
+      "deadline": "Ongoing obligation",
+      "conditions": "When receiving Confidential Information from Disclosing Party",
+      "source_text": "The Receiving Party agrees: (a) To hold all Confidential Information in strict confidence;",
+      "source_location": "Section 3.1(a)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-002",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Prohibited from disclosing Confidential Information to third parties without prior written consent",
+      "deadline": "Ongoing prohibition",
+      "conditions": "Unless prior written consent obtained from Disclosing Party",
+      "source_text": "(b) Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing Party;",
+      "source_location": "Section 3.1(b)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-003",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Prohibited from using Confidential Information for purposes other than the stated Purpose",
+      "deadline": "Ongoing restriction",
+      "conditions": "Use limited to exploring potential business relationship relating to development and integration of artificial intelligence solutions for enterprise data management",
+      "source_text": "(c) Not to use any Confidential Information for any purpose other than the Purpose;",
+      "source_location": "Section 3.1(c)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-004",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Must prove exclusions from Confidential Information with clear and convincing evidence",
+      "deadline": "When claiming information is excluded from confidentiality",
+      "conditions": "When asserting that disclosed information falls under exclusions in Section 2.1",
+      "source_text": "The burden of proving that any of the above exclusions applies shall rest with the Receiving Party, and such proof must be established by clear and convincing evidence.",
+      "source_location": "Section 2.2",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-005",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Must not use Confidential Information for any purpose other than the Purpose",
+      "deadline": "Ongoing for duration of agreement and 7 years after termination",
+      "conditions": "Applies to all Confidential Information received",
+      "source_text": "Not to use any Confidential Information for any purpose other than the Purpose",
+      "source_location": "Section 3.1(c)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-006",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Must limit access to Confidential Information to employees, contractors, and advisors with need to know who are bound by confidentiality obligations",
+      "deadline": "Ongoing",
+      "conditions": "Confidentiality obligations must be at least as restrictive as those in this agreement",
+      "source_text": "To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein",
+      "source_location": "Section 3.1(d)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-007",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Must protect Confidential Information using same degree of care used for own confidential information, but no less than reasonable care",
+      "deadline": "Ongoing",
+      "conditions": "Standard of care must be at least reasonable care",
+      "source_text": "To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care",
+      "source_location": "Section 3.1(e)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-008",
+      "party": "Receiving Party",
+      "type": "notification",
+      "description": "Must give Disclosing Party prompt written notice when required to disclose Confidential Information by law, regulation, or court order",
+      "deadline": "Promptly upon becoming aware of requirement",
+      "conditions": "When disclosure is required by applicable law, regulation, or court order",
+      "source_text": "provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy",
+      "source_location": "Section 3.2(b)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-009",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Must cooperate with Disclosing Party's efforts to obtain protective order when disclosure is required by law",
+      "deadline": "When disclosure is required by law",
+      "conditions": "When disclosure is required by applicable law, regulation, or court order",
+      "source_text": "provided that the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy",
+      "source_location": "Section 3.2(b)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-010",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Must return all documents containing Confidential Information or destroy them upon written request or termination",
+      "deadline": "Promptly upon Disclosing Party's written request or termination/expiration of Agreement",
+      "conditions": "At Disclosing Party's election - either return or destroy",
+      "source_text": "Upon the Disclosing Party's written request, or upon termination or expiration of this Agreement, the Receiving Party shall promptly: (a) Return to the Disclosing Party all documents, materials, and other tangible items containing Confidential Information; or (b) Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party",
+      "source_location": "Section 5.1",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-011",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Must provide written certification of destruction signed by authorized officer if choosing to destroy Confidential Information",
+      "deadline": "When destroying Confidential Information",
+      "conditions": "If choosing destruction option under Section 5.1",
+      "source_text": "Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party",
+      "source_location": "Section 5.1(b)",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-012",
+      "party": "Either Party",
+      "type": "notification",
+      "description": "Must provide thirty (30) days' prior written notice to terminate Agreement",
+      "deadline": "30 days before intended termination date",
+      "conditions": "Either Party may terminate at any time with proper notice",
+      "source_text": "Either Party may terminate this Agreement at any time by providing thirty (30) days' prior written notice to the other Party",
+      "source_location": "Section 6.2",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-013",
+      "party": "Both Parties",
+      "type": "requirement",
+      "description": "Confidentiality and non-use obligations survive termination for seven years or as long as trade secrets remain protected",
+      "deadline": "Seven (7) years after termination, or indefinitely for trade secrets",
+      "conditions": "Survival applies regardless of how Agreement terminates",
+      "source_text": "The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years, or with respect to trade secrets, for as long as such information remains a trade secret under applicable law",
+      "source_location": "Section 6.3",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-014",
+      "party": "Each Party",
+      "type": "requirement",
+      "description": "Indemnify, defend, and hold harmless the other Party for breaches and unauthorized disclosure",
+      "deadline": "Upon occurrence of indemnifiable event",
+      "conditions": "Arising from breach of Agreement or unauthorized disclosure of Confidential Information",
+      "source_text": "Each Party (the \"Indemnifying Party\") agrees to indemnify, defend, and hold harmless the other Party and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to: (a) Any breach of this Agreement by the Indemnifying Party; (b) Any unauthorized disclosure or use of Confidential Information by the Indemnifying Party or its representatives.",
+      "source_location": "Section 10.1, Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-015",
+      "party": "Each Party",
+      "type": "restriction",
+      "description": "Prohibited from soliciting or hiring the other Party's employees with whom they had contact",
+      "deadline": "During term and for 2 years after termination",
+      "conditions": "Without prior written consent of the other Party; does not apply to general solicitations not specifically directed at other Party's employees",
+      "source_text": "During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party with whom it has had contact in connection with the Purpose, without the prior written consent of the other Party.",
+      "source_location": "Section 12.1, Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-016",
+      "party": "Each Party",
+      "type": "restriction",
+      "description": "Prohibited from circumventing the other Party in business opportunities, contacts, or transactions",
+      "deadline": "During term and for 3 years after termination",
+      "conditions": "With respect to opportunities introduced by the other Party in connection with the Purpose",
+      "source_text": "Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party in connection with the Purpose.",
+      "source_location": "Section 13.1, Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-017",
+      "party": "Each Party",
+      "type": "consent",
+      "description": "Must obtain prior written consent before assigning or transferring the Agreement",
+      "deadline": "Before any assignment or transfer",
+      "conditions": "Exception for assignments to affiliates or in connection with merger, acquisition, or sale of substantially all assets",
+      "source_text": "Neither Party may assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement to an affiliate or in connection with a merger, acquisition, or sale of substantially all of its assets.",
+      "source_location": "Section 14.1, Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-018",
+      "party": "Each Party",
+      "type": "requirement",
+      "description": "Must attempt good faith negotiations before initiating arbitration",
+      "deadline": "Before initiating arbitration",
+      "conditions": "For any dispute arising out of or relating to this Agreement",
+      "source_text": "The Parties shall first attempt to resolve the dispute through good faith negotiations; If negotiations fail within thirty (30) days, either Party may initiate binding arbitration",
+      "source_location": "Section 15.2(a)(b), Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-019",
+      "party": "Each Party",
+      "type": "deadline",
+      "description": "May initiate arbitration if negotiations fail within 30 days",
+      "deadline": "After 30 days of unsuccessful negotiations",
+      "conditions": "If good faith negotiations fail to resolve dispute",
+      "source_text": "If negotiations fail within thirty (30) days, either Party may initiate binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules",
+      "source_location": "Section 15.2(b), Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-020",
+      "party": "Each Party",
+      "type": "requirement",
+      "description": "Must participate in JAMS arbitration in San Francisco following specific procedures",
+      "deadline": "When arbitration is initiated",
+      "conditions": "Single arbitrator mutually agreed upon; arbitrator's decision final and binding",
+      "source_text": "binding arbitration administered by JAMS in San Francisco, California, in accordance with its Comprehensive Arbitration Rules; The arbitration shall be conducted by a single arbitrator mutually agreed upon by the Parties; The arbitrator's decision shall be final and binding",
+      "source_location": "Section 15.2(b)(c)(d), Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-021",
+      "party": "Each Party",
+      "type": "requirement",
+      "description": "Must bear own costs and attorneys' fees in arbitration unless frivolous claims",
+      "deadline": "During arbitration proceedings",
+      "conditions": "Unless arbitrator determines claims/defenses were frivolous or brought in bad faith",
+      "source_text": "Each Party shall bear its own costs and attorneys' fees, unless the arbitrator determines that one Party's claims or defenses were frivolous or brought in bad faith.",
+      "source_location": "Section 15.2(e), Pages 3-5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-022",
+      "party": "Both Parties",
+      "type": "notification",
+      "description": "All notices must be in writing and delivered personally, sent by confirmed email, or sent by overnight courier",
+      "deadline": "As needed when notice is required",
+      "conditions": "Must use specified delivery methods to designated addresses",
+      "source_text": "All notices under this Agreement shall be in writing and shall be deemed given when delivered personally, sent by confirmed email, or sent by overnight courier to the addresses set forth above, or to such other address as a Party may designate in writing.",
+      "source_location": "Notices Section, Page 5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-023",
+      "party": "Both Parties",
+      "type": "requirement",
+      "description": "Any amendments to the Agreement must be in writing and signed by both parties",
+      "deadline": "Before any modification takes effect",
+      "conditions": "Must be a written instrument with both party signatures",
+      "source_text": "This Agreement may not be amended or modified except by a written instrument signed by both Parties.",
+      "source_location": "Section 17.2, Page 5",
+      "risk_level": "low",
+      "risk_flags": []
+    },
+    {
+      "id": "OBL-024",
+      "party": "Both Parties",
+      "type": "requirement",
+      "description": "Must comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed",
+      "deadline": "Ongoing compliance requirement",
+      "conditions": "In connection with any Confidential Information disclosed under the Agreement",
+      "source_text": "Each Party agrees to comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed hereunder.",
+      "source_location": "Section 17.7, Page 5",
+      "risk_level": "low",
+      "risk_flags": []
+    }
+  ],
+  "key_definitions": [
+    {
+      "term": "Confidential Information",
+      "definition": "Any and all information or data, whether oral, written, electronic, visual, or in any other form, that is disclosed by one Party (the 'Disclosing Party') to the other Party (the 'Receiving Party') in connection with the Purpose, including technical information, business information, product information, personnel information, information marked as confidential, and information that would reasonably be understood to be confidential",
+      "source_location": "Section 1.1"
+    },
+    {
+      "term": "Purpose",
+      "definition": "The development and integration of artificial intelligence solutions for enterprise data management",
+      "source_location": "Recitals"
+    },
+    {
+      "term": "Disclosing Party",
+      "definition": "The Party disclosing Confidential Information",
+      "source_location": "Section 1.1"
+    },
+    {
+      "term": "Receiving Party",
+      "definition": "The Party receiving Confidential Information",
+      "source_location": "Section 1.1"
+    },
+    {
+      "term": "Indemnifying Party",
+      "definition": "Each Party when serving as the party providing indemnification",
+      "source_location": "Section 10.1"
+    }
+  ],
+  "extraction_notes": "This is chunk 1 of 4. Term duration, termination provisions, and additional obligations may be found in subsequent chunks. Both parties have mutual obligations as either party can be a Disclosing Party or Receiving Party depending on who is sharing information.\nThis appears to be a mutual Non-Disclosure Agreement (NDA). Key definitions for Purpose, Confidential Information, Disclosing Party, and Receiving Party are referenced but likely defined in earlier sections not included in this chunk. The Agreement allows for one archival copy to be retained for legal compliance purposes even after termination/destruction requirements. The survival period for confidentiality obligations varies between 7 years for general confidential information and indefinite for trade secrets.\nThis is chunk 3 of 4 from the contract (pages 3-5). Party names and basic contract terms not available in this chunk. The non-solicitation period is 2 years while non-circumvention survives for 3 years after termination. Section 16 (Notices) appears to be cut off at the end of this chunk. Some obligations may reference terms or definitions from earlier chunks not included here.\nThis is chunk 4 of 4. Many key terms like effective date, term duration, termination notice periods, and core obligations are likely defined in earlier chunks not included here. The parties' names and roles are inferred from signature blocks. The document appears to be a Non-Disclosure Agreement based on references to 'Confidential Information' and 'Disclosing Party'/'Receiving Party' structure.",
+  "chunks_processed": 4
+}

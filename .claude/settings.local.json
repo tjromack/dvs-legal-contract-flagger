@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python tests/test_extractor.py:*)",
+      "Bash(pip install:*)",
+      "Bash(python scripts/create_sample_pdf.py:*)",
+      "Bash(python src/extractor.py:*)",
+      "Bash(python:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,230 @@
+SAAS TERMS OF SERVICE AGREEMENT
+
+Last Updated: November 15, 2024
+
+PLEASE READ THESE TERMS OF SERVICE CAREFULLY BEFORE USING OUR SERVICES.
+
+This SaaS Terms of Service Agreement ("Agreement") is a legally binding contract between you, either an individual or a single entity ("Customer," "you," or "your"), and CloudPlatform Systems Inc., a Delaware corporation ("Company," "we," "us," or "our"), governing your access to and use of our cloud-based software platform and related services (collectively, the "Services").
+
+BY CLICKING "I ACCEPT," CREATING AN ACCOUNT, OR USING THE SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO BE BOUND BY THIS AGREEMENT. IF YOU ARE ENTERING INTO THIS AGREEMENT ON BEHALF OF A COMPANY OR OTHER LEGAL ENTITY, YOU REPRESENT THAT YOU HAVE THE AUTHORITY TO BIND SUCH ENTITY TO THIS AGREEMENT.
+
+IF YOU DO NOT AGREE TO THESE TERMS, DO NOT USE THE SERVICES.
+
+1. DEFINITIONS
+
+1.1 "Authorized Users" means Customer's employees, contractors, and agents who are authorized by Customer to access and use the Services under this Agreement.
+
+1.2 "Customer Data" means all data, information, content, and materials that Customer or Authorized Users upload, submit, store, or transmit through the Services.
+
+1.3 "Documentation" means the user guides, help files, and other documentation provided by Company relating to the Services.
+
+1.4 "Subscription Term" means the period during which Customer has subscribed to access and use the Services.
+
+2. ACCESS AND USE
+
+2.1 Grant of Rights. Subject to the terms of this Agreement and payment of applicable fees, Company grants Customer a limited, non-exclusive, non-transferable, non-sublicensable right to access and use the Services during the Subscription Term solely for Customer's internal business purposes.
+
+2.2 Authorized Users. Customer may permit Authorized Users to access the Services, subject to the following conditions:
+
+(a) Customer is responsible for all actions taken by Authorized Users;
+(b) Customer shall ensure all Authorized Users comply with this Agreement;
+(c) Customer shall maintain the confidentiality of all login credentials;
+(d) Customer shall immediately notify Company of any unauthorized access.
+
+2.3 Usage Restrictions. Customer shall not, and shall not permit any third party to:
+
+(a) License, sublicense, sell, rent, lease, transfer, assign, or distribute the Services;
+(b) Modify, copy, or create derivative works based on the Services;
+(c) Reverse engineer, disassemble, decompile, or attempt to derive the source code of the Services;
+(d) Access the Services to build a competitive product or service;
+(e) Use the Services to store or transmit malicious code, viruses, or harmful content;
+(f) Interfere with or disrupt the integrity or performance of the Services;
+(g) Attempt to gain unauthorized access to the Services or related systems;
+(h) Use the Services in violation of any applicable law or regulation;
+(i) Use automated tools to access the Services without Company's written consent;
+(j) Exceed any usage limits specified in Customer's subscription plan.
+
+3. CUSTOMER DATA
+
+3.1 Ownership. As between Company and Customer, Customer retains all right, title, and interest in and to Customer Data.
+
+3.2 License to Customer Data. Customer grants Company a worldwide, royalty-free, non-exclusive license to access, use, process, copy, distribute, perform, export, and display Customer Data solely as necessary to provide the Services and as otherwise permitted by this Agreement.
+
+3.3 Data Usage. Customer acknowledges and agrees that Company may:
+
+(a) Use Customer Data to improve, enhance, and develop the Services and Company's other products and services;
+(b) Create anonymized, aggregated, and/or de-identified data derived from Customer Data ("Aggregated Data");
+(c) Use Aggregated Data for any business purpose, including analytics, benchmarking, and machine learning;
+(d) Share Aggregated Data with third parties;
+(e) Retain Aggregated Data indefinitely, even after termination of this Agreement.
+
+3.4 Customer Responsibilities. Customer is solely responsible for:
+
+(a) The accuracy, quality, integrity, and legality of Customer Data;
+(b) The means by which Customer acquires Customer Data;
+(c) Obtaining all necessary consents and permissions to collect and use Customer Data;
+(d) Backing up Customer Data (Company is not responsible for data loss);
+(e) Ensuring Customer Data does not violate any third-party rights.
+
+4. FEES AND PAYMENT
+
+4.1 Fees. Customer shall pay Company the fees specified in the applicable order form or subscription plan ("Fees"). All Fees are quoted in U.S. dollars unless otherwise specified.
+
+4.2 Payment Terms. Unless otherwise agreed:
+
+(a) Fees are due in advance on an annual basis;
+(b) All payments are due within thirty (30) days of invoice date;
+(c) Fees are non-refundable under any circumstances;
+(d) Company may charge interest on late payments at 1.5% per month or the maximum rate permitted by law.
+
+4.3 Fee Increases. Company may increase Fees at any time upon thirty (30) days' prior notice. Continued use of the Services after a fee increase constitutes acceptance of the new Fees.
+
+4.4 Taxes. Fees do not include taxes. Customer is responsible for all taxes, levies, duties, and assessments arising from this Agreement, excluding taxes based on Company's net income.
+
+4.5 Suspension for Non-Payment. Company may suspend Customer's access to the Services if any Fees remain unpaid for more than fifteen (15) days past due. Company shall not be liable for any damages resulting from such suspension.
+
+5. TERM AND TERMINATION
+
+5.1 Term. This Agreement commences on the date Customer first accesses the Services and continues until terminated in accordance with this Section.
+
+5.2 Subscription Term. The initial Subscription Term shall be specified in Customer's order form. Unless Customer provides written notice of non-renewal at least sixty (60) days prior to the end of the then-current term, the Subscription Term shall automatically renew for successive periods equal to the initial term.
+
+5.3 Termination by Company. Company may terminate this Agreement or suspend Customer's access to the Services:
+
+(a) Immediately upon written notice if Customer breaches any provision of this Agreement;
+(b) Immediately if Customer fails to pay any Fees when due;
+(c) Upon thirty (30) days' written notice for any reason or no reason;
+(d) Immediately if Customer becomes insolvent, files for bankruptcy, or ceases operations.
+
+5.4 Termination by Customer. Customer may terminate this Agreement upon written notice, provided that:
+
+(a) No refund of prepaid Fees shall be provided;
+(b) Customer shall pay all Fees due through the end of the then-current Subscription Term.
+
+5.5 Effect of Termination. Upon termination:
+
+(a) Customer's access to the Services shall immediately cease;
+(b) Customer shall pay all outstanding Fees;
+(c) Company may delete Customer Data within thirty (30) days;
+(d) Sections 3.3, 7, 8, 9, 10, 11, 12, and 14 shall survive termination.
+
+6. SERVICE LEVELS AND SUPPORT
+
+6.1 Availability. Company shall use commercially reasonable efforts to make the Services available 99.5% of the time during each calendar month, excluding scheduled maintenance and circumstances beyond Company's reasonable control.
+
+6.2 Scheduled Maintenance. Company may perform scheduled maintenance during low-usage periods. Company shall endeavor to provide at least 24 hours' advance notice of scheduled maintenance, but is not obligated to do so.
+
+6.3 Support. Company shall provide email support during normal business hours (9:00 AM - 5:00 PM Pacific Time, Monday - Friday, excluding holidays). Response times are targets only and are not guaranteed.
+
+6.4 No Service Credits. Notwithstanding Section 6.1, Customer shall not be entitled to any service credits, refunds, or other remedies for any failure to meet the availability target.
+
+6.5 Modifications. Company reserves the right to modify, update, or discontinue any features or functionality of the Services at any time, with or without notice. Company shall have no liability for any such modifications or discontinuations.
+
+7. INTELLECTUAL PROPERTY
+
+7.1 Company IP. Company and its licensors own all right, title, and interest in and to the Services, Documentation, and all related intellectual property rights, including all modifications, improvements, enhancements, and derivative works thereof. Except for the limited rights expressly granted herein, no other rights are granted to Customer.
+
+7.2 Feedback. If Customer provides any suggestions, ideas, enhancement requests, recommendations, or other feedback relating to the Services ("Feedback"), Customer hereby assigns to Company all right, title, and interest in and to such Feedback and agrees that Company may use Feedback for any purpose without any obligation to Customer.
+
+7.3 Restrictions. Customer shall not remove, alter, or obscure any proprietary notices on the Services or Documentation.
+
+8. CONFIDENTIALITY
+
+8.1 Definition. "Confidential Information" means any information disclosed by one party to the other that is designated as confidential or that reasonably should be understood to be confidential, including the terms of this Agreement, technical information, business information, and Customer Data.
+
+8.2 Obligations. The receiving party shall: (a) use Confidential Information only for purposes of this Agreement; (b) not disclose Confidential Information to any third party without prior written consent; and (c) protect Confidential Information using the same degree of care as it uses to protect its own confidential information.
+
+8.3 Exceptions. Confidential Information does not include information that: (a) is or becomes publicly available through no fault of the receiving party; (b) was rightfully known prior to disclosure; (c) is rightfully obtained from a third party; or (d) is independently developed.
+
+9. WARRANTIES AND DISCLAIMERS
+
+9.1 Mutual Warranties. Each party represents and warrants that it has the authority to enter into this Agreement.
+
+9.2 DISCLAIMER. EXCEPT AS EXPRESSLY SET FORTH HEREIN, THE SERVICES ARE PROVIDED "AS IS" AND "AS AVAILABLE." COMPANY EXPRESSLY DISCLAIMS ALL WARRANTIES, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, AVAILABILITY, SECURITY, AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE.
+
+9.3 COMPANY DOES NOT WARRANT THAT THE SERVICES WILL BE UNINTERRUPTED, ERROR-FREE, SECURE, OR FREE OF VIRUSES OR OTHER HARMFUL COMPONENTS.
+
+9.4 NO ADVICE OR INFORMATION, WHETHER ORAL OR WRITTEN, OBTAINED FROM COMPANY SHALL CREATE ANY WARRANTY NOT EXPRESSLY STATED HEREIN.
+
+10. LIMITATION OF LIABILITY
+
+10.1 EXCLUSION OF DAMAGES. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL COMPANY OR ITS AFFILIATES, OFFICERS, DIRECTORS, EMPLOYEES, AGENTS, OR LICENSORS BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, EXEMPLARY, OR PUNITIVE DAMAGES, INCLUDING DAMAGES FOR LOST PROFITS, LOST REVENUE, LOST DATA, LOSS OF GOODWILL, BUSINESS INTERRUPTION, OR ANY OTHER COMMERCIAL DAMAGES OR LOSSES, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+10.2 CAP ON LIABILITY. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, COMPANY'S TOTAL CUMULATIVE LIABILITY ARISING OUT OF OR RELATING TO THIS AGREEMENT SHALL NOT EXCEED THE FEES PAID BY CUSTOMER DURING THE THREE (3) MONTHS IMMEDIATELY PRECEDING THE EVENT GIVING RISE TO THE CLAIM.
+
+10.3 EXCLUSIONS. THE LIMITATIONS IN THIS SECTION SHALL APPLY REGARDLESS OF THE FORM OF ACTION, WHETHER IN CONTRACT, TORT (INCLUDING NEGLIGENCE), STRICT LIABILITY, OR OTHERWISE, AND EVEN IF COMPANY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+10.4 ESSENTIAL PURPOSE. THE PARTIES AGREE THAT THE LIMITATIONS OF LIABILITY SET FORTH HEREIN ALLOCATE RISK BETWEEN THE PARTIES AND ARE AN ESSENTIAL ELEMENT OF THE BASIS OF THE BARGAIN BETWEEN THE PARTIES.
+
+10.5 CUSTOMER DATA. COMPANY SHALL NOT BE LIABLE FOR ANY LOSS, CORRUPTION, OR UNAUTHORIZED ACCESS TO CUSTOMER DATA, REGARDLESS OF CAUSE.
+
+11. INDEMNIFICATION
+
+11.1 Indemnification by Customer. Customer shall indemnify, defend, and hold harmless Company and its affiliates, officers, directors, employees, and agents from and against any and all claims, damages, losses, liabilities, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to:
+
+(a) Customer's use of the Services;
+(b) Customer Data or any content provided by Customer;
+(c) Customer's breach of this Agreement;
+(d) Customer's violation of any applicable law;
+(e) Any claim by a third party relating to Customer's use of the Services.
+
+11.2 Procedure. Company shall: (a) promptly notify Customer of any claim; (b) give Customer sole control of the defense and settlement; and (c) provide reasonable cooperation. Customer shall not settle any claim that imposes any obligation on Company without Company's prior written consent.
+
+12. DISPUTE RESOLUTION
+
+12.1 Governing Law. This Agreement shall be governed by the laws of the State of Delaware, without regard to its conflicts of law principles.
+
+12.2 Mandatory Arbitration. ANY DISPUTE, CLAIM, OR CONTROVERSY ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES SHALL BE RESOLVED EXCLUSIVELY THROUGH FINAL AND BINDING ARBITRATION. THE ARBITRATION SHALL BE ADMINISTERED BY THE AMERICAN ARBITRATION ASSOCIATION ("AAA") IN WILMINGTON, DELAWARE, IN ACCORDANCE WITH ITS COMMERCIAL ARBITRATION RULES.
+
+12.3 Class Action Waiver. YOU AND COMPANY EACH AGREE THAT ANY DISPUTE RESOLUTION PROCEEDINGS WILL BE CONDUCTED ONLY ON AN INDIVIDUAL BASIS AND NOT IN A CLASS, CONSOLIDATED, OR REPRESENTATIVE ACTION. YOU HEREBY WAIVE ANY RIGHT TO PARTICIPATE IN A CLASS ACTION LAWSUIT OR CLASS-WIDE ARBITRATION.
+
+12.4 JURY TRIAL WAIVER. TO THE FULLEST EXTENT PERMITTED BY LAW, YOU AND COMPANY EACH WAIVE ANY RIGHT TO A JURY TRIAL IN CONNECTION WITH ANY DISPUTE ARISING OUT OF OR RELATING TO THIS AGREEMENT.
+
+12.5 Limitation on Time to File Claims. ANY CAUSE OF ACTION OR CLAIM CUSTOMER MAY HAVE ARISING OUT OF OR RELATING TO THIS AGREEMENT OR THE SERVICES MUST BE COMMENCED WITHIN ONE (1) YEAR AFTER THE CAUSE OF ACTION ACCRUES. OTHERWISE, SUCH CAUSE OF ACTION OR CLAIM IS PERMANENTLY BARRED.
+
+12.6 Injunctive Relief. Notwithstanding the foregoing, Company may seek injunctive or other equitable relief in any court of competent jurisdiction to protect its intellectual property rights.
+
+13. DATA PRIVACY AND SECURITY
+
+13.1 Data Processing. Company shall process Customer Data in accordance with its Privacy Policy, which is incorporated herein by reference. Customer acknowledges that it has read and agrees to the Privacy Policy.
+
+13.2 Data Location. Customer Data may be stored and processed in any country where Company or its service providers maintain facilities. Customer consents to the transfer of Customer Data outside of Customer's country of residence.
+
+13.3 Security. Company shall implement reasonable administrative, technical, and physical safeguards designed to protect Customer Data. However, Customer acknowledges that no security measures are perfect or impenetrable, and Company does not guarantee the security of Customer Data.
+
+13.4 Data Breach. In the event of a security breach affecting Customer Data, Company shall notify Customer within a reasonable time after discovery. Company shall not be liable for any damages resulting from a data breach.
+
+13.5 Subprocessors. Customer agrees that Company may use third-party subprocessors to process Customer Data. A current list of subprocessors is available upon request.
+
+14. GENERAL PROVISIONS
+
+14.1 Entire Agreement. This Agreement, together with any order forms and policies referenced herein, constitutes the entire agreement between the parties and supersedes all prior agreements, representations, and understandings.
+
+14.2 Amendments. Company may modify this Agreement at any time by posting the revised terms on its website or notifying Customer by email. Continued use of the Services after such modifications constitutes acceptance of the modified Agreement. Customer is responsible for reviewing this Agreement periodically.
+
+14.3 Assignment. Customer may not assign or transfer this Agreement without Company's prior written consent. Company may assign this Agreement to any affiliate or successor entity.
+
+14.4 No Waiver. The failure of Company to enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision.
+
+14.5 Severability. If any provision of this Agreement is held to be invalid or unenforceable, such provision shall be modified to the minimum extent necessary to make it enforceable, and the remaining provisions shall continue in full force and effect.
+
+14.6 Force Majeure. Company shall not be liable for any failure or delay in performance due to causes beyond its reasonable control, including acts of God, natural disasters, war, terrorism, strikes, government actions, internet service interruptions, or third-party service failures.
+
+14.7 Independent Contractors. The parties are independent contractors. Nothing in this Agreement creates any partnership, joint venture, agency, or employment relationship.
+
+14.8 Third-Party Beneficiaries. This Agreement does not create any third-party beneficiary rights.
+
+14.9 Export Compliance. Customer agrees to comply with all applicable export control laws and regulations.
+
+14.10 Government End Users. If Customer is a U.S. government entity, the Services are provided as "commercial items" as defined in FAR 2.101.
+
+14.11 Notices. All notices to Company shall be sent to: legal@cloudplatformsystems.com or CloudPlatform Systems Inc., Legal Department, 1000 Enterprise Way, Wilmington, DE 19801.
+
+14.12 Contact Information. For questions about this Agreement, please contact: support@cloudplatformsystems.com.
+
+BY USING THE SERVICES, YOU ACKNOWLEDGE THAT YOU HAVE READ THIS AGREEMENT, UNDERSTAND IT, AND AGREE TO BE BOUND BY ITS TERMS AND CONDITIONS.
+
+CloudPlatform Systems Inc.
+1000 Enterprise Way
+Wilmington, DE 19801
+www.cloudplatformsystems.com
