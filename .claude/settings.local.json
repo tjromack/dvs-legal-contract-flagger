@@ -6,7 +6,10 @@
       "Bash(pip install:*)",
       "Bash(python scripts/create_sample_pdf.py:*)",
       "Bash(python src/extractor.py:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(git -C \"c:\\\\dev\\\\dvs-legal-contract-flagger\" log --oneline -20)",
+      "Bash(git -C \"c:\\\\dev\\\\dvs-legal-contract-flagger\" status --short)"
     ],
     "deny": [],
     "ask": []

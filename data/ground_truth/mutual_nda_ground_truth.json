@@ -1,12 +1,10 @@
 {
   "_contract_file": "sample_contracts/mutual_nda.txt",
   "_annotator_notes": "Example ground truth - expand with additional obligations as needed",
-
   "_audited": false,
   "_audit_date": null,
   "_missed_obligations": [],
   "_false_positives": [],
-
   "parties": [
     {
       "name": "TechVentures Innovation Inc.",
@@ -19,17 +17,14 @@
       "is_reader": false
     }
   ],
-
   "effective_date": "December 1, 2024",
   "term": "3 years",
   "termination_notice_period": "30 days",
-
   "auto_renewal": {
     "exists": false,
     "period": null,
     "notice_to_cancel": null
   },
-
   "obligations": [
     {
       "id": "OBL-001",
@@ -212,7 +207,6 @@
       "_audit_notes": ""
     }
   ],
-
   "risk_flags": [
     {
       "obligation_id": "OBL-009",
@@ -281,7 +275,6 @@
       "_audit_notes": ""
     }
   ],
-
   "key_definitions": [
     {
       "term": "Confidential Information",
@@ -304,6 +297,6 @@
       "source_location": "Section 1.1"
     }
   ],
-
-  "_annotation_notes": "This is an example annotation. Review carefully and add any missed obligations. The 'is_reader' field assumes TechVentures is the reviewing party - adjust based on your perspective."
+  "_annotation_notes": "This is an example annotation. Review carefully and add any missed obligations. The 'is_reader' field assumes TechVentures is the reviewing party - adjust based on your perspective.",
+  "_audit_notes": ""
 }
