@@ -1,0 +1,438 @@
+{
+  "_contract_file": "sample_contracts/residential_lease_agreement.txt",
+
+  "_audited": false,
+  "_audit_date": null,
+  "_missed_obligations": [],
+  "_false_positives": [],
+
+  "parties": [
+    {
+      "name": "Greenfield Property Management LLC",
+      "role": "Landlord",
+      "is_reader": false
+    },
+    {
+      "name": "John Michael Roberts",
+      "role": "Tenant",
+      "is_reader": true
+    },
+    {
+      "name": "Sarah Elizabeth Roberts",
+      "role": "Tenant",
+      "is_reader": true
+    }
+  ],
+
+  "effective_date": "January 15, 2024",
+  "term": "1 year (February 1, 2024 to January 31, 2025)",
+  "termination_notice_period": "60 days",
+
+  "auto_renewal": {
+    "exists": true,
+    "period": "1 year",
+    "notice_to_cancel": "60 days prior to end of term"
+  },
+
+  "obligations": [
+    {
+      "id": "OBL-001",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay monthly rent of $2,300 on the 1st of each month",
+      "deadline": "1st day of each calendar month",
+      "conditions": null,
+      "source_text": "Tenant agrees to pay Landlord monthly rent in the amount of Two Thousand Three Hundred Dollars ($2,300.00), due on the first (1st) day of each calendar month",
+      "source_location": "Section 2.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-002",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay late fee of 10% plus $5/day if rent not received by 5th of month",
+      "deadline": null,
+      "conditions": "If rent not received by 5th of month",
+      "source_text": "If rent is not received by the fifth (5th) day of the month, Tenant shall pay a late fee of Ten Percent (10%) of the monthly rent amount, plus Five Dollars ($5.00) per day for each additional day the rent remains unpaid",
+      "source_location": "Section 2.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-003",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay security deposit of $4,600 (two months rent) upon execution",
+      "deadline": "Upon execution of Agreement",
+      "conditions": null,
+      "source_text": "Tenant shall pay a security deposit of Four Thousand Six Hundred Dollars ($4,600.00) upon execution of this Agreement, which equals two (2) months' rent",
+      "source_location": "Section 3.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-004",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay non-refundable move-in fee of $500 and pet fee of $350 per pet",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "In addition to the security deposit, Tenant shall pay a non-refundable move-in fee of $500.00 and a non-refundable pet fee of $350.00 per pet",
+      "source_location": "Section 3.4",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-005",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay all utilities including electricity, gas, water, sewer, garbage, internet, cable, telephone",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Tenant shall be responsible for payment of all utilities, including but not limited to: electricity, gas, water, sewer, garbage collection, internet, cable television, and telephone services",
+      "source_location": "Section 4",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-006",
+      "party": "Tenant",
+      "type": "restriction",
+      "description": "Use premises for residential purposes only, no commercial or illegal use",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "The Premises shall be used solely for residential purposes and shall not be used for any commercial, business, or illegal purpose",
+      "source_location": "Section 5.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-007",
+      "party": "Tenant",
+      "type": "restriction",
+      "description": "No overnight guests staying more than 3 consecutive nights without written approval",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "No additional occupants or overnight guests staying more than three (3) consecutive nights are permitted without prior written approval from Landlord",
+      "source_location": "Section 5.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-008",
+      "party": "Tenant",
+      "type": "restriction",
+      "description": "No subletting, assigning, or transferring without prior written consent",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Tenant shall not sublet, assign, or transfer this Agreement or any interest therein, nor permit any other person to occupy the Premises, without prior written consent from Landlord. Any unauthorized subletting shall result in immediate termination of this Agreement",
+      "source_location": "Section 5.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-009",
+      "party": "Tenant",
+      "type": "requirement",
+      "description": "Maintain premises in clean, sanitary condition and responsible for all repairs and maintenance",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Tenant shall maintain the Premises in a clean, sanitary condition and shall be responsible for all repairs and maintenance, including but not limited to: plumbing fixtures, appliances, HVAC filters, light bulbs, smoke detector batteries, and any damage caused by Tenant or Tenant's guests",
+      "source_location": "Section 6.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-010",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Reimburse landlord for repairs caused by tenant's negligence within 10 days of invoice",
+      "deadline": "10 days of receiving invoice",
+      "conditions": "Repairs necessitated by Tenant's negligence or misuse",
+      "source_text": "Tenant shall reimburse Landlord for any repairs necessitated by Tenant's negligence or misuse within ten (10) days of receiving an invoice. Failure to pay shall constitute a material breach of this Agreement",
+      "source_location": "Section 6.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-011",
+      "party": "Tenant",
+      "type": "restriction",
+      "description": "No alterations or improvements without prior written consent from Landlord",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Tenant shall not make any alterations, additions, or improvements to the Premises without prior written consent from Landlord. Any approved alterations shall become the property of Landlord upon installation and shall not be removed by Tenant",
+      "source_location": "Section 7",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-012",
+      "party": "Tenant",
+      "type": "requirement",
+      "description": "Maintain renter's insurance with $100,000 liability and $50,000 personal property coverage",
+      "deadline": "Throughout lease term",
+      "conditions": null,
+      "source_text": "Tenant shall maintain renter's insurance with minimum coverage of $100,000 for personal liability and $50,000 for personal property throughout the lease term",
+      "source_location": "Section 8.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-013",
+      "party": "Tenant",
+      "type": "requirement",
+      "description": "Indemnify landlord for all claims arising from tenant's use of premises regardless of landlord negligence",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Tenant shall indemnify, defend, and hold harmless Landlord, its agents, employees, and contractors from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to Tenant's use or occupancy of the Premises, regardless of whether such claims arise from the negligence of Landlord",
+      "source_location": "Section 9",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-014",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay early termination fee of 3 months rent plus forfeit security deposit if terminating early",
+      "deadline": null,
+      "conditions": "If Tenant terminates before end of lease term",
+      "source_text": "If Tenant terminates this Agreement before the end of the lease term, Tenant shall pay an early termination fee equal to three (3) months' rent plus forfeiture of the security deposit",
+      "source_location": "Section 10.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-015",
+      "party": "Tenant",
+      "type": "payment",
+      "description": "Pay double rent (200%) if holding over without consent",
+      "deadline": null,
+      "conditions": "If Tenant remains after lease expires without consent",
+      "source_text": "If Tenant remains in possession after the lease term expires without Landlord's written consent, Tenant shall be liable for rent at double (200%) the then-current monthly rate, plus all damages suffered by Landlord",
+      "source_location": "Section 10.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-016",
+      "party": "Tenant",
+      "type": "consent",
+      "description": "Get written approval for pets and pay applicable fees and deposits",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Pets are only permitted with prior written approval from Landlord and payment of applicable pet fees and deposits",
+      "source_location": "Section 12.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-017",
+      "party": "Either Party",
+      "type": "notification",
+      "description": "Provide 60 days written notice to terminate before end of current term",
+      "deadline": "60 days prior to end of term",
+      "conditions": "To prevent auto-renewal",
+      "source_text": "This Agreement shall automatically renew for successive one (1) year periods unless either party provides written notice of termination at least sixty (60) days prior to the end of the then-current term",
+      "source_location": "Section 1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-018",
+      "party": "Landlord",
+      "type": "requirement",
+      "description": "Return security deposit less deductions within 90 days after tenant vacates",
+      "deadline": "90 days after Tenant vacates",
+      "conditions": "After Tenant vacates and returns all keys",
+      "source_text": "The security deposit, less any deductions, shall be returned within ninety (90) days after Tenant vacates the Premises and returns all keys",
+      "source_location": "Section 3.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "risk_flags": [
+    {
+      "obligation_id": "OBL-001",
+      "category": "time_bomb",
+      "severity": "high",
+      "title": "Auto-renewal with 60-day notice requirement",
+      "description": "Lease auto-renews for 1 year unless 60 days notice given - easy to miss deadline and get locked in for another year",
+      "source_text": "This Agreement shall automatically renew for successive one (1) year periods unless either party provides written notice of termination at least sixty (60) days prior to the end of the then-current term",
+      "source_location": "Section 1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-002",
+      "category": "financial_exposure",
+      "severity": "high",
+      "title": "Excessive late fee (10% + $5/day)",
+      "description": "Late fee of 10% plus $5/day is unusually harsh and may exceed legal limits in some jurisdictions",
+      "source_text": "Tenant shall pay a late fee of Ten Percent (10%) of the monthly rent amount, plus Five Dollars ($5.00) per day for each additional day the rent remains unpaid",
+      "source_location": "Section 2.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "asymmetric_terms",
+      "severity": "high",
+      "title": "Landlord can increase rent anytime with 30 days notice",
+      "description": "Landlord can raise rent at any time during the lease term with only 30 days notice - unusual mid-term rent increase clause",
+      "source_text": "Landlord reserves the right to increase rent at any time during the lease term with thirty (30) days written notice to Tenant",
+      "source_location": "Section 2.4",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-003",
+      "category": "financial_exposure",
+      "severity": "medium",
+      "title": "Two months security deposit",
+      "description": "Security deposit of 2 months rent ($4,600) is at the high end of typical deposits",
+      "source_text": "Tenant shall pay a security deposit of Four Thousand Six Hundred Dollars ($4,600.00) upon execution of this Agreement, which equals two (2) months' rent",
+      "source_location": "Section 3.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "asymmetric_terms",
+      "severity": "high",
+      "title": "Landlord can use security deposit for any purpose",
+      "description": "Overly broad security deposit usage rights including 'any other amounts owed' gives landlord excessive discretion",
+      "source_text": "Landlord may use the security deposit for any purpose, including but not limited to: unpaid rent, cleaning costs, repair of damages beyond normal wear and tear, replacement of missing items, and any other amounts owed under this Agreement",
+      "source_location": "Section 3.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-018",
+      "category": "time_bomb",
+      "severity": "medium",
+      "title": "90-day security deposit return period",
+      "description": "90 days to return security deposit is much longer than typical 30-day requirement in most states",
+      "source_text": "The security deposit, less any deductions, shall be returned within ninety (90) days after Tenant vacates the Premises and returns all keys",
+      "source_location": "Section 3.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "asymmetric_terms",
+      "severity": "high",
+      "title": "Landlord can enter at any time without notice",
+      "description": "Landlord access without notice violates tenant privacy rights and may be illegal in many jurisdictions",
+      "source_text": "Landlord or Landlord's agents may enter the Premises at any time without notice for any purpose, including but not limited to: inspection, repairs, showing the property to prospective tenants or buyers, or any other lawful purpose",
+      "source_location": "Section 6.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-013",
+      "category": "financial_exposure",
+      "severity": "high",
+      "title": "Indemnification regardless of landlord negligence",
+      "description": "Tenant must indemnify landlord even for landlord's own negligence - extremely one-sided",
+      "source_text": "Tenant shall indemnify, defend, and hold harmless Landlord... from and against any and all claims... arising out of or relating to Tenant's use or occupancy of the Premises, regardless of whether such claims arise from the negligence of Landlord",
+      "source_location": "Section 9",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "asymmetric_terms",
+      "severity": "high",
+      "title": "Landlord can terminate immediately for any reason",
+      "description": "Landlord can terminate without notice 'for any reason deemed appropriate by Landlord in its sole discretion' - completely one-sided",
+      "source_text": "Landlord may terminate this Agreement immediately and without notice for any violation of this Agreement or for any reason deemed appropriate by Landlord in its sole discretion",
+      "source_location": "Section 10.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-014",
+      "category": "financial_exposure",
+      "severity": "high",
+      "title": "Early termination fee of 3 months rent plus security deposit",
+      "description": "Early termination penalty of 3 months rent ($6,900) plus forfeiture of $4,600 deposit = $11,500 total penalty",
+      "source_text": "If Tenant terminates this Agreement before the end of the lease term, Tenant shall pay an early termination fee equal to three (3) months' rent plus forfeiture of the security deposit",
+      "source_location": "Section 10.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-015",
+      "category": "financial_exposure",
+      "severity": "high",
+      "title": "Double rent for holdover",
+      "description": "200% rent penalty for staying past lease end is punitive",
+      "source_text": "Tenant shall be liable for rent at double (200%) the then-current monthly rate, plus all damages suffered by Landlord",
+      "source_location": "Section 10.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Jury trial waiver",
+      "description": "Both parties waive right to jury trial",
+      "source_text": "LANDLORD AND TENANT HEREBY WAIVE THEIR RESPECTIVE RIGHTS TO A JURY TRIAL IN ANY ACTION OR PROCEEDING ARISING OUT OF THIS AGREEMENT",
+      "source_location": "Section 11.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Mandatory binding arbitration",
+      "description": "All disputes must go to binding arbitration in Portland, OR",
+      "source_text": "Any dispute arising out of or relating to this Agreement shall be resolved exclusively through binding arbitration administered by the American Arbitration Association in Portland, Oregon. The arbitrator's decision shall be final and binding",
+      "source_location": "Section 15.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Class action waiver",
+      "description": "Tenant waives right to participate in class action lawsuits",
+      "source_text": "Tenant agrees that any dispute shall be brought in Tenant's individual capacity only, and not as a plaintiff or class member in any purported class or representative proceeding",
+      "source_location": "Section 15.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "asymmetric_terms",
+      "severity": "medium",
+      "title": "Tenant waives all claims against landlord for property damage",
+      "description": "Broad waiver of subrogation means tenant can't claim against landlord for any property damage including landlord negligence",
+      "source_text": "Tenant hereby waives any and all claims against Landlord for damage to personal property arising from any cause whatsoever, including but not limited to: fire, theft, water damage, acts of God, or negligence of Landlord",
+      "source_location": "Section 8.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "key_definitions": [
+    {
+      "term": "Premises",
+      "definition": "The residential property located at 1847 Maple Street, Unit 4B, Portland, OR 97205, including all fixtures, appliances, and improvements thereon",
+      "source_location": "Header"
+    },
+    {
+      "term": "Initial Term",
+      "definition": "February 1, 2024 to January 31, 2025",
+      "source_location": "Section 1"
+    }
+  ],
+
+  "_annotation_notes": "This lease contains numerous tenant-unfriendly provisions including: unlimited landlord entry rights, mid-term rent increases, one-sided termination rights, excessive penalties, and broad indemnification. Many clauses may be unenforceable under Oregon tenant protection laws."
+}

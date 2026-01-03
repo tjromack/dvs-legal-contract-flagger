@@ -1,0 +1,309 @@
+{
+  "_contract_file": "sample_contracts/mutual_nda.txt",
+  "_annotator_notes": "Example ground truth - expand with additional obligations as needed",
+
+  "_audited": false,
+  "_audit_date": null,
+  "_missed_obligations": [],
+  "_false_positives": [],
+
+  "parties": [
+    {
+      "name": "TechVentures Innovation Inc.",
+      "role": "Party A",
+      "is_reader": true
+    },
+    {
+      "name": "DataFlow Solutions LLC",
+      "role": "Party B",
+      "is_reader": false
+    }
+  ],
+
+  "effective_date": "December 1, 2024",
+  "term": "3 years",
+  "termination_notice_period": "30 days",
+
+  "auto_renewal": {
+    "exists": false,
+    "period": null,
+    "notice_to_cancel": null
+  },
+
+  "obligations": [
+    {
+      "id": "OBL-001",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Hold all Confidential Information in strict confidence",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "The Receiving Party agrees: (a) To hold all Confidential Information in strict confidence",
+      "source_location": "Section 3.1(a)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-002",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Not disclose Confidential Information to third parties without prior written consent",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Not to disclose any Confidential Information to any third party without the prior written consent of the Disclosing Party",
+      "source_location": "Section 3.1(b)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-003",
+      "party": "Receiving Party",
+      "type": "restriction",
+      "description": "Not use Confidential Information for any purpose other than the Purpose",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Not to use any Confidential Information for any purpose other than the Purpose",
+      "source_location": "Section 3.1(c)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-004",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Limit access to Confidential Information to employees/contractors with need to know who are bound by confidentiality",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "To limit access to Confidential Information to those employees, contractors, and advisors who have a need to know such information for the Purpose and who are bound by confidentiality obligations at least as restrictive as those contained herein",
+      "source_location": "Section 3.1(d)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-005",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Protect Confidential Information with reasonable care (at least same as own confidential info)",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "To protect Confidential Information using the same degree of care that it uses to protect its own confidential information, but in no event less than reasonable care",
+      "source_location": "Section 3.1(e)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-006",
+      "party": "Receiving Party",
+      "type": "notification",
+      "description": "Give prompt written notice if required to disclose by law and cooperate to obtain protective order",
+      "deadline": "Prompt notice",
+      "conditions": "If disclosure required by law, regulation, or court order",
+      "source_text": "the Receiving Party gives the Disclosing Party prompt written notice of such requirement and cooperates with the Disclosing Party's efforts to obtain a protective order or other appropriate remedy",
+      "source_location": "Section 3.2(b)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-007",
+      "party": "Receiving Party",
+      "type": "requirement",
+      "description": "Return or destroy all Confidential Information upon request or termination",
+      "deadline": "Promptly upon request or termination",
+      "conditions": "Upon Disclosing Party's written request, or upon termination/expiration",
+      "source_text": "Upon the Disclosing Party's written request, or upon termination or expiration of this Agreement, the Receiving Party shall promptly: (a) Return to the Disclosing Party all documents, materials, and other tangible items containing Confidential Information; or (b) Destroy all such documents, materials, and items, and provide written certification of such destruction signed by an authorized officer of the Receiving Party",
+      "source_location": "Section 5.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-008",
+      "party": "Either Party",
+      "type": "notification",
+      "description": "Provide 30 days written notice to terminate",
+      "deadline": "30 days prior",
+      "conditions": "To terminate the agreement",
+      "source_text": "Either Party may terminate this Agreement at any time by providing thirty (30) days' prior written notice to the other Party",
+      "source_location": "Section 6.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-009",
+      "party": "Both Parties",
+      "type": "restriction",
+      "description": "Confidentiality obligations survive for 7 years (or longer for trade secrets)",
+      "deadline": "7 years post-termination",
+      "conditions": null,
+      "source_text": "The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years, or with respect to trade secrets, for as long as such information remains a trade secret under applicable law",
+      "source_location": "Section 6.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-010",
+      "party": "Both Parties",
+      "type": "restriction",
+      "description": "Non-solicitation of employees for 2 years post-termination",
+      "deadline": "During term + 2 years post-termination",
+      "conditions": null,
+      "source_text": "During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party with whom it has had contact in connection with the Purpose, without the prior written consent of the other Party",
+      "source_location": "Section 12.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-011",
+      "party": "Both Parties",
+      "type": "restriction",
+      "description": "Non-circumvention obligation for 3 years post-termination",
+      "deadline": "3 years post-termination",
+      "conditions": null,
+      "source_text": "Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party in connection with the Purpose. This non-circumvention obligation shall survive termination of this Agreement for a period of three (3) years",
+      "source_location": "Section 13.1-13.2",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-012",
+      "party": "Either Party",
+      "type": "consent",
+      "description": "Cannot assign agreement without prior written consent (with exceptions)",
+      "deadline": null,
+      "conditions": "Except for affiliates or M&A transactions",
+      "source_text": "Neither Party may assign or transfer this Agreement or any rights or obligations hereunder without the prior written consent of the other Party, except that either Party may assign this Agreement to an affiliate or in connection with a merger, acquisition, or sale of substantially all of its assets",
+      "source_location": "Section 14.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-013",
+      "party": "Both Parties",
+      "type": "requirement",
+      "description": "Attempt good faith negotiations before arbitration",
+      "deadline": "30 days of negotiations",
+      "conditions": "Any dispute arising from the agreement",
+      "source_text": "The Parties shall first attempt to resolve the dispute through good faith negotiations; If negotiations fail within thirty (30) days, either Party may initiate binding arbitration",
+      "source_location": "Section 15.2(a)-(b)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-014",
+      "party": "Indemnifying Party",
+      "type": "payment",
+      "description": "Indemnify other party for breaches including attorneys' fees",
+      "deadline": null,
+      "conditions": "Upon breach of agreement or unauthorized disclosure",
+      "source_text": "Each Party (the \"Indemnifying Party\") agrees to indemnify, defend, and hold harmless the other Party and its officers, directors, employees, agents, and affiliates from and against any and all claims, damages, losses, costs, and expenses (including reasonable attorneys' fees) arising out of or relating to: (a) Any breach of this Agreement by the Indemnifying Party; (b) Any unauthorized disclosure or use of Confidential Information",
+      "source_location": "Section 10.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "id": "OBL-015",
+      "party": "Both Parties",
+      "type": "requirement",
+      "description": "Comply with export control laws for Confidential Information",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "Each Party agrees to comply with all applicable export control laws and regulations in connection with any Confidential Information disclosed hereunder",
+      "source_location": "Section 17.7",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "risk_flags": [
+    {
+      "obligation_id": "OBL-009",
+      "category": "time_bomb",
+      "severity": "medium",
+      "title": "Long confidentiality survival period",
+      "description": "Confidentiality obligations survive for 7 years after termination, which is longer than typical NDAs (usually 2-5 years)",
+      "source_text": "The obligations of confidentiality and non-use set forth in this Agreement shall survive termination or expiration of this Agreement for a period of seven (7) years",
+      "source_location": "Section 6.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-010",
+      "category": "competitive_restriction",
+      "severity": "medium",
+      "title": "Non-solicitation of employees",
+      "description": "2-year non-solicitation restriction may limit hiring flexibility",
+      "source_text": "During the term of this Agreement and for a period of two (2) years following termination, neither Party shall, directly or indirectly, solicit for employment or hire any employee of the other Party",
+      "source_location": "Section 12.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-011",
+      "category": "competitive_restriction",
+      "severity": "high",
+      "title": "Non-circumvention clause",
+      "description": "Broad non-circumvention language could restrict legitimate business activities with contacts introduced during discussions",
+      "source_text": "Each Party agrees not to circumvent, avoid, bypass, or obviate the other Party, directly or indirectly, in any manner whatsoever, with respect to any business opportunities, contacts, or transactions introduced by the other Party",
+      "source_location": "Section 13.1",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-013",
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Mandatory binding arbitration",
+      "description": "Disputes must go to binding arbitration in San Francisco, which may be inconvenient and expensive",
+      "source_text": "either Party may initiate binding arbitration administered by JAMS in San Francisco, California",
+      "source_location": "Section 15.2(b)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": null,
+      "category": "dispute_resolution",
+      "severity": "medium",
+      "title": "Jury trial waiver",
+      "description": "Both parties waive right to jury trial, limiting legal options",
+      "source_text": "EACH PARTY HEREBY WAIVES ANY RIGHT TO A JURY TRIAL IN ANY PROCEEDING ARISING OUT OF OR RELATING TO THIS AGREEMENT",
+      "source_location": "Section 15.3",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    },
+    {
+      "obligation_id": "OBL-004",
+      "category": "unclear_obligation",
+      "severity": "low",
+      "title": "Vague 'need to know' standard",
+      "description": "The 'need to know' standard is subjective and could lead to disagreements",
+      "source_text": "those employees, contractors, and advisors who have a need to know such information for the Purpose",
+      "source_location": "Section 3.1(d)",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "key_definitions": [
+    {
+      "term": "Confidential Information",
+      "definition": "Any and all information or data disclosed by one Party to the other in connection with the Purpose, including technical, business, product, and personnel information",
+      "source_location": "Section 1.1"
+    },
+    {
+      "term": "Purpose",
+      "definition": "Development and integration of artificial intelligence solutions for enterprise data management",
+      "source_location": "Recitals"
+    },
+    {
+      "term": "Disclosing Party",
+      "definition": "The Party disclosing Confidential Information",
+      "source_location": "Section 1.1"
+    },
+    {
+      "term": "Receiving Party",
+      "definition": "The Party receiving Confidential Information",
+      "source_location": "Section 1.1"
+    }
+  ],
+
+  "_annotation_notes": "This is an example annotation. Review carefully and add any missed obligations. The 'is_reader' field assumes TechVentures is the reviewing party - adjust based on your perspective."
+}

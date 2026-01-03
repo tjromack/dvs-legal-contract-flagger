@@ -1,0 +1,66 @@
+{
+  "_instructions": "Copy this file and rename to <contract_name>_ground_truth.json",
+  "_contract_file": "sample_contracts/<contract_name>.txt",
+
+  "_audited": false,
+  "_audit_date": null,
+  "_missed_obligations": [],
+  "_false_positives": [],
+
+  "parties": [
+    {
+      "name": "",
+      "role": "",
+      "is_reader": false
+    }
+  ],
+
+  "effective_date": null,
+  "term": null,
+  "termination_notice_period": null,
+
+  "auto_renewal": {
+    "exists": false,
+    "period": null,
+    "notice_to_cancel": null
+  },
+
+  "obligations": [
+    {
+      "id": "OBL-001",
+      "party": "",
+      "type": "",
+      "description": "",
+      "deadline": null,
+      "conditions": null,
+      "source_text": "",
+      "source_location": "",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "risk_flags": [
+    {
+      "obligation_id": "OBL-001",
+      "category": "",
+      "severity": "",
+      "title": "",
+      "description": "",
+      "source_text": "",
+      "source_location": "",
+      "_audit_status": "pending",
+      "_audit_notes": ""
+    }
+  ],
+
+  "key_definitions": [
+    {
+      "term": "",
+      "definition": "",
+      "source_location": ""
+    }
+  ],
+
+  "_annotation_notes": ""
+}
